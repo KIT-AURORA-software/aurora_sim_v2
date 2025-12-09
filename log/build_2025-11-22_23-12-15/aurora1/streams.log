@@ -1,0 +1,25 @@
+[0.360s] Invoking command in '/home/fuga1129/aurora_sim_v2/build/aurora1': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/aurora_sim_v2/build/aurora1/build --no-deps symlink_data --force
+[0.510s] running develop
+[0.599s] running egg_info
+[0.600s] writing aurora1.egg-info/PKG-INFO
+[0.600s] writing dependency_links to aurora1.egg-info/dependency_links.txt
+[0.600s] writing entry points to aurora1.egg-info/entry_points.txt
+[0.600s] writing requirements to aurora1.egg-info/requires.txt
+[0.600s] writing top-level names to aurora1.egg-info/top_level.txt
+[0.601s] reading manifest file 'aurora1.egg-info/SOURCES.txt'
+[0.601s] writing manifest file 'aurora1.egg-info/SOURCES.txt'
+[0.602s] running build_ext
+[0.602s] Creating /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1.egg-link (link to .)
+[0.603s] Installing ackermann_4wd_controller script to /home/fuga1129/aurora_sim_v2/install/aurora1/lib/aurora1
+[0.603s] 
+[0.603s] Installed /home/fuga1129/aurora_sim_v2/build/aurora1
+[0.603s] running symlink_data
+[0.603s] symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/resource/aurora1 -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/ament_index/resource_index/packages
+[0.603s] symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/package.xml -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1
+[0.603s] symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/launch/launch_sim.launch.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/launch
+[0.603s] symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/launch/joystick.launch.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/launch
+[0.604s] symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/launch/rsp.launch.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/launch
+[0.604s] symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/config/joystick.yaml -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/config
+[0.604s] symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/config/rover_controller_4wd_v2.yaml -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/config
+[0.604s] error: can't copy '/home/fuga1129/aurora_sim_v2/build/aurora1/config/ekf.yaml': doesn't exist or not a regular file
+[0.619s] Invoked command in '/home/fuga1129/aurora_sim_v2/build/aurora1' returned '1': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/aurora_sim_v2/build/aurora1/build --no-deps symlink_data --force

@@ -1,0 +1,39 @@
+running develop
+Removing /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1.egg-link (link to .)
+running egg_info
+writing ../../build/aurora1/aurora1.egg-info/PKG-INFO
+writing dependency_links to ../../build/aurora1/aurora1.egg-info/dependency_links.txt
+writing entry points to ../../build/aurora1/aurora1.egg-info/entry_points.txt
+writing requirements to ../../build/aurora1/aurora1.egg-info/requires.txt
+writing top-level names to ../../build/aurora1/aurora1.egg-info/top_level.txt
+reading manifest file '../../build/aurora1/aurora1.egg-info/SOURCES.txt'
+writing manifest file '../../build/aurora1/aurora1.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1
+copying /home/fuga1129/aurora_sim_v2/build/aurora1/build/lib/aurora1/__init__.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1
+copying /home/fuga1129/aurora_sim_v2/build/aurora1/build/lib/aurora1/ackermann_4wd_controller.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1
+byte-compiling /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1/ackermann_4wd_controller.py to ackermann_4wd_controller.cpython-310.pyc
+running install_data
+copying resource/aurora1 -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/ament_index/resource_index/packages
+copying package.xml -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1
+copying launch/launch_sim.launch.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/launch
+copying launch/joystick.launch.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/launch
+copying launch/rsp.launch.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/launch
+copying config/joystick.yaml -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/config
+copying config/rover_controller_4wd_v2.yaml -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/config
+copying description/robot_core_4wd_v2.xacro -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/description
+copying description/depth_camera.xacro -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/description
+copying description/inertial_macros.xacro -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/description
+copying description/ros2_control_4wd_v2.xacro -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/description
+copying description/lidar.xacro -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/description
+copying description/robot.urdf.xacro -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/description
+copying description/camera.xacro -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/description
+running install_egg_info
+Copying ../../build/aurora1/aurora1.egg-info to /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ackermann_4wd_controller script to /home/fuga1129/aurora_sim_v2/install/aurora1/lib/aurora1
+writing list of installed files to '/home/fuga1129/aurora_sim_v2/build/aurora1/install.log'

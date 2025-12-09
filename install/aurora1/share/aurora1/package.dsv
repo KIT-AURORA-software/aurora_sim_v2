@@ -1,0 +1,6 @@
+source;share/aurora1/hook/pythonpath.ps1
+source;share/aurora1/hook/pythonpath.dsv
+source;share/aurora1/hook/pythonpath.sh
+source;share/aurora1/hook/ament_prefix_path.ps1
+source;share/aurora1/hook/ament_prefix_path.dsv
+source;share/aurora1/hook/ament_prefix_path.sh

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing aurora1.egg-info/PKG-INFO
+writing dependency_links to aurora1.egg-info/dependency_links.txt
+writing entry points to aurora1.egg-info/entry_points.txt
+writing requirements to aurora1.egg-info/requires.txt
+writing top-level names to aurora1.egg-info/top_level.txt
+reading manifest file 'aurora1.egg-info/SOURCES.txt'
+writing manifest file 'aurora1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1.egg-link (link to .)
+Installing ackermann_4wd_controller script to /home/fuga1129/aurora_sim_v2/install/aurora1/lib/aurora1
+
+Installed /home/fuga1129/aurora_sim_v2/build/aurora1
+running symlink_data
+symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/resource/aurora1 -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/ament_index/resource_index/packages
+symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/package.xml -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1
+symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/launch/launch_sim.launch.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/launch
+symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/launch/joystick.launch.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/launch
+symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/launch/rsp.launch.py -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/launch
+symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/config/joystick.yaml -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/config
+symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora1/config/rover_controller_4wd_v2.yaml -> /home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/config
