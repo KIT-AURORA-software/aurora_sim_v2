@@ -1,0 +1,5 @@
+[console_scripts]
+ackermann_4wd_controller = aurora_drive.ackermann_4wd_controller:main
+ackermann_sim_controller = aurora_drive.ackermann_sim_controller:main
+odometry_4ws = aurora_drive.odometry_4ws:main
+

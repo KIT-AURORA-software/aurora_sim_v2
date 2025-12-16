@@ -1,0 +1,27 @@
+[0.570s] Invoking command in '/home/fuga1129/aurora_sim_v2/src/aurora_drive': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_drive build --build-base /home/fuga1129/aurora_sim_v2/build/aurora_drive/build install --record /home/fuga1129/aurora_sim_v2/build/aurora_drive/install.log --single-version-externally-managed install_data
+[0.791s] running egg_info
+[0.791s] writing ../../build/aurora_drive/aurora_drive.egg-info/PKG-INFO
+[0.791s] writing dependency_links to ../../build/aurora_drive/aurora_drive.egg-info/dependency_links.txt
+[0.791s] writing entry points to ../../build/aurora_drive/aurora_drive.egg-info/entry_points.txt
+[0.791s] writing requirements to ../../build/aurora_drive/aurora_drive.egg-info/requires.txt
+[0.791s] writing top-level names to ../../build/aurora_drive/aurora_drive.egg-info/top_level.txt
+[0.792s] reading manifest file '../../build/aurora_drive/aurora_drive.egg-info/SOURCES.txt'
+[0.793s] writing manifest file '../../build/aurora_drive/aurora_drive.egg-info/SOURCES.txt'
+[0.793s] running build
+[0.793s] running build_py
+[0.794s] copying aurora_drive/ackermann_sim_controller.py -> /home/fuga1129/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive
+[0.794s] running install
+[0.794s] running install_lib
+[0.794s] copying /home/fuga1129/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive/ackermann_sim_controller.py -> /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive
+[0.794s] byte-compiling /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/ackermann_sim_controller.py to ackermann_sim_controller.cpython-310.pyc
+[0.795s] running install_data
+[0.795s] copying config/joystick.yaml -> /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config
+[0.795s] running install_egg_info
+[0.796s] removing '/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive-0.0.0-py3.10.egg-info' (and everything under it)
+[0.797s] Copying ../../build/aurora_drive/aurora_drive.egg-info to /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive-0.0.0-py3.10.egg-info
+[0.797s] running install_scripts
+[0.811s] Installing ackermann_4wd_controller script to /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/aurora_drive
+[0.811s] Installing ackermann_sim_controller script to /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/aurora_drive
+[0.811s] Installing odometry_4ws script to /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/aurora_drive
+[0.811s] writing list of installed files to '/home/fuga1129/aurora_sim_v2/build/aurora_drive/install.log'
+[0.830s] Invoked command in '/home/fuga1129/aurora_sim_v2/src/aurora_drive' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_drive build --build-base /home/fuga1129/aurora_sim_v2/build/aurora_drive/build install --record /home/fuga1129/aurora_sim_v2/build/aurora_drive/install.log --single-version-externally-managed install_data
