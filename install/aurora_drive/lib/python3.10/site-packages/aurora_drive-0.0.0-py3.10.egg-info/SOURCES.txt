@@ -36,3 +36,6 @@ resource/aurora_drive
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+world/house.world
+world/obstacle.world
+world/obstacle_v2.world

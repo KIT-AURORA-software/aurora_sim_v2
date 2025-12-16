@@ -28,6 +28,9 @@
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description/lidar.xacro
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description/robot.urdf.xacro
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description/camera.xacro
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/world/house.world
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/world/obstacle_v2.world
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/world/obstacle.world
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive-0.0.0-py3.10.egg-info/top_level.txt
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive-0.0.0-py3.10.egg-info/requires.txt
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive-0.0.0-py3.10.egg-info/dependency_links.txt

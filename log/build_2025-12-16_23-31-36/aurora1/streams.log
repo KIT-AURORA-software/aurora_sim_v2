@@ -1,0 +1,22 @@
+[0.605s] Invoking command in '/home/fuga1129/aurora_sim_v2/src/aurora1': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora1 build --build-base /home/fuga1129/aurora_sim_v2/build/aurora1/build install --record /home/fuga1129/aurora_sim_v2/build/aurora1/install.log --single-version-externally-managed install_data
+[0.766s] running egg_info
+[0.766s] writing ../../build/aurora1/aurora1.egg-info/PKG-INFO
+[0.767s] writing dependency_links to ../../build/aurora1/aurora1.egg-info/dependency_links.txt
+[0.767s] writing entry points to ../../build/aurora1/aurora1.egg-info/entry_points.txt
+[0.767s] writing requirements to ../../build/aurora1/aurora1.egg-info/requires.txt
+[0.767s] writing top-level names to ../../build/aurora1/aurora1.egg-info/top_level.txt
+[0.769s] reading manifest file '../../build/aurora1/aurora1.egg-info/SOURCES.txt'
+[0.770s] writing manifest file '../../build/aurora1/aurora1.egg-info/SOURCES.txt'
+[0.770s] running build
+[0.770s] running build_py
+[0.771s] running install
+[0.771s] running install_lib
+[0.772s] running install_data
+[0.773s] running install_egg_info
+[0.775s] removing '/home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.775s] Copying ../../build/aurora1/aurora1.egg-info to /home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1-0.0.0-py3.10.egg-info
+[0.776s] running install_scripts
+[0.797s] Installing ackermann_4wd_controller script to /home/fuga1129/aurora_sim_v2/install/aurora1/lib/aurora1
+[0.798s] Installing ackermann_4wd_controller_real script to /home/fuga1129/aurora_sim_v2/install/aurora1/lib/aurora1
+[0.798s] writing list of installed files to '/home/fuga1129/aurora_sim_v2/build/aurora1/install.log'
+[0.830s] Invoked command in '/home/fuga1129/aurora_sim_v2/src/aurora1' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora1 build --build-base /home/fuga1129/aurora_sim_v2/build/aurora1/build install --record /home/fuga1129/aurora_sim_v2/build/aurora1/install.log --single-version-externally-managed install_data

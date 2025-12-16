@@ -17,6 +17,7 @@ setup(
         ('share/' + package_name + '/config', glob(os.path.join('config', '*.yaml'))),
         # description ディレクトリに合わせる
         ('share/' + package_name + '/description', glob(os.path.join('description', '*.xacro'))),
+        ('share/' + package_name + '/world', glob(os.path.join('world', '*.world'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
