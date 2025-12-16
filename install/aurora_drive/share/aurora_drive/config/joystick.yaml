@@ -10,9 +10,9 @@ teleop_node:
 
     # 右スティック上下 → 前後
     axis_linear:
-      x: 3
+      x: 4
     scale_linear:
-      x: -0.8   # 上で前進になるよう反転
+      x: 0.8   # 上で前進になるよう反転
 
     # 左スティック左右 → ステア
     axis_angular:
