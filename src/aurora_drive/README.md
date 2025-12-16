@@ -26,7 +26,7 @@ rviz2
 を起動し、Displaysを色々いじる。<br>
 Fixedname : map<br>
 Addを押し、BytopicのLaserScan,Odometry,mapをそれぞれダブルクリックしDisplaysに追加する。<br>
-![alt text](image-1.png)
+![alt text](image-1.png)<br>
 5. 更に別のターミナルを起動し
 ```
 ros2 launch aurora_drive joystick.launch.py
