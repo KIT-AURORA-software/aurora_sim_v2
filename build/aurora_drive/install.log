@@ -14,11 +14,13 @@
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch/joystick_v2.launch.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch/launch_sim_v2.launch.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch/joystick.launch.py
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch/all.launch.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch/rsp.launch.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch/slam_launch.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/joystick.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/rover_controller_4wd_v2.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/controller_4ws.yaml
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/twist_mux.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/slam_toolbox.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/mapper_params_online_async.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description/robot_core_4wd_v2.xacro
