@@ -16,6 +16,7 @@ aurora_drive/odometry_4ws.py
 config/controller_4ws.yaml
 config/joystick.yaml
 config/mapper_params_online_async.yaml
+config/nav2_param.yaml
 config/rover_controller_4wd_v2.yaml
 config/slam_toolbox.yaml
 config/twist_mux.yaml

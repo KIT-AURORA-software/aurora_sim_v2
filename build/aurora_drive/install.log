@@ -21,6 +21,7 @@
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/rover_controller_4wd_v2.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/controller_4ws.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/twist_mux.yaml
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/nav2_param.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/slam_toolbox.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/mapper_params_online_async.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description/robot_core_4wd_v2.xacro
