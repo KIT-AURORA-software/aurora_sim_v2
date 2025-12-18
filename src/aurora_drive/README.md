@@ -43,7 +43,7 @@ source install/setup.bash
 ```
 2. twist_muxノードを起動する。
 ```
-ros2 run twist_mux twist_mux --ros-args   --params-file ./src/aurora_drive/config/twist_mux.yaml   -r cmd_vel_out:=diff_cont/cmd_vel_unstamped
+ros2 run twist_mux twist_mux --ros-args   --params-file ./src/aurora_drive/config/twist_mux.yaml   -r cmd_vel_out:=/cmd_vel
 ```
 3. 更に別のターミナルを起動し、別のlaunchファイルを起動する。
 ```
@@ -77,7 +77,7 @@ topic: /global_costmap/costmap<br>
 としてmapが２つ作成される。<br>
 8. 更に別のターミナルを起動し、下のコマンドをコピーして実行する。
 ```
-fuga1129@fuga1129-FMVU8G3WD3:~/aurora_sim_v2$ echo "=== DWB Critic調整 ==="
+echo "=== DWB Critic調整 ==="
 
 # 1. RotateToGoalを無効化（最も効果的）
 ros2 param set /controller_server FollowPath.critics "Oscillation,BaseObstacle,GoalAlign,PathAlign,PathDist,GoalDist"
