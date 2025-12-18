@@ -79,7 +79,7 @@ class AckermannSimController(Node):
         vel_msg.data = [w, w, w, w]
 
         steer_msg = Float64MultiArray()
-        steer_msg.data = [steer, steer, 0.0, 0.0]
+        steer_msg.data = [steer, steer, -steer, -steer]
 
         self.pub_vel.publish(vel_msg)
         self.pub_steer.publish(steer_msg)

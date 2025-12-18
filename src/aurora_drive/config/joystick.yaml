@@ -6,6 +6,7 @@ joy_node:
 
 teleop_node:
   ros__parameters:
+    require_enable_button: true 
     enable_button: 5   # R1 は「許可」だけ
 
     # 右スティック上下 → 前後

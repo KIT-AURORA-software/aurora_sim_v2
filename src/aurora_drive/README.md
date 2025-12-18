@@ -75,4 +75,39 @@ Addを押し、BytopicのLaserScan,Odometry,mapをそれぞれダブルクリッ
 topic: /map<br>
 topic: /global_costmap/costmap<br>
 としてmapが２つ作成される。<br>
+8. 更に別のターミナルを起動し、下のコマンドをコピーして実行する。
+```
+fuga1129@fuga1129-FMVU8G3WD3:~/aurora_sim_v2$ echo "=== DWB Critic調整 ==="
+
+# 1. RotateToGoalを無効化（最も効果的）
+ros2 param set /controller_server FollowPath.critics "Oscillation,BaseObstacle,GoalAlign,PathAlign,PathDist,GoalDist"
+
+# 2. ゴール到達の角度許容範囲を広げる
+ros2 param set /controller_server general_goal_checker.yaw_goal_tolerance 1.57
+
+# 3. ゴール到達判定を緩くする
+ros2 param set /controller_server general_goal_checker.xy_goal_tolerance 0.3
+
+# 4. サンプリング数を増やす
+ros2 param set /controller_server FollowPath.vx_samples 30
+ros2 param set /controller_server FollowPath.vtheta_samples 60
+
+# 5. BaseObstacleをさらに緩くする
+ros2 param set /controller_server FollowPath.BaseObstacle.scale 0.005
+
+# 6. 経路追従を強く優先
+ros2 param set /controller_server FollowPath.PathDist.scale 64.0
+ros2 param set /controller_server FollowPath.GoalDist.scale 48.0
+
+# 7. patience を延ばす
+ros2 param set /controller_server failure_tolerance 3.0
+
+# 8. コストマップをクリア
+ros2 service call /local_costmap/clear_entirely_local_costmap std_srvs/srv/Empty
+ros2 service call /global_costmap/clear_entirely_global_costmap std_srvs/srv/Empty
+
+echo "=== 調整完了！新しいゴールを設定してください ==="
+
+```
+
 
