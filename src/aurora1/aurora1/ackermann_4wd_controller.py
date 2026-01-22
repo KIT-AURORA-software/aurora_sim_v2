@@ -38,8 +38,8 @@ class Ackermann4WDController(Node):
         self.max_angular_speed = 1.0  # rad/s
         self.max_steering_angle = 0.7854  # 45度 (π/4)
         self.current_speed = 0.3 #m/s
-        self.msgbutton_12 = False
-        self.msgbutton_11 = False
+        self.msgbutton_11 = False #12 → 11
+        self.msgbutton_10 = False #11 → 10
 
         self.get_logger().info('Ackermann 4WD Controller Started')
         self.get_logger().info('Left stick: steering, Right stick: forward/backward')
@@ -65,8 +65,8 @@ class Ackermann4WDController(Node):
             steering_input = msg.axes[0] if len(msg.axes) > 0 else 0.0
             left_front_steering_angle = steering_input * self.max_steering_angle  
             right_front_steering_angle = steering_input * self.max_steering_angle
-            left_rear_steering_angle = 0.0
-            right_rear_steering_angle = 0.0
+            left_rear_steering_angle = -(steering_input * self.max_steering_angle)
+            right_rear_steering_angle = -(steering_input * self.max_steering_angle)
 
 
             # # 駆動制御 (右スティック上下 または トリガー)
@@ -88,10 +88,10 @@ class Ackermann4WDController(Node):
             
             # linear_speed = linear_input * self.max_linear_speed
 
-            if msg.buttons[12] and not self.msgbutton_12:
+            if msg.buttons[11] and not self.msgbutton_11: #12 → 11
                 self.current_speed += 0.1
                 
-            if msg.buttons[11] and not self.msgbutton_11:
+            if msg.buttons[10] and not self.msgbutton_10: #11 → 10
                 self.current_speed -= 0.1
                 
             linear_speed = self.current_speed
@@ -140,8 +140,8 @@ class Ackermann4WDController(Node):
             self.steer_pub.publish(steer_msg)
 
             # ボタン状態を更新（この部分を追加）
-            self.msgbutton_12 = msg.buttons[12]
             self.msgbutton_11 = msg.buttons[11]
+            self.msgbutton_10 = msg.buttons[10]
             
             # デバッグ情報
             if abs(linear_speed) > 0.01 or abs(left_front_steering_angle) > 0.01 or abs(right_front_steering_angle) > 0.01 or abs(left_rear_steering_angle) > 0.01 or abs(right_rear_steering_angle) > 0.01:
