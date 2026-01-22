@@ -1,0 +1,1 @@
+/home/aurora/aurora_sim_v2/src/aurora_drive/launch/joystick_v2.launch.py

@@ -1,4 +1,3 @@
-README.md
 package.xml
 setup.cfg
 setup.py
@@ -12,6 +11,13 @@ setup.py
 aurora1/__init__.py
 aurora1/ackermann_4wd_controller.py
 aurora1/ackermann_4wd_controller_real.py
+aurora1.egg-info/PKG-INFO
+aurora1.egg-info/SOURCES.txt
+aurora1.egg-info/dependency_links.txt
+aurora1.egg-info/entry_points.txt
+aurora1.egg-info/requires.txt
+aurora1.egg-info/top_level.txt
+aurora1.egg-info/zip-safe
 config/joystick.yaml
 config/mapper_params_online_async.yaml
 config/rover_controller_4wd_v2.yaml
@@ -29,6 +35,3 @@ launch/rsp.launch.py
 launch/slam_launch.py
 resource/aurora1
 rviz/slam.rviz
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

@@ -1,4 +1,3 @@
-README.md
 package.xml
 setup.cfg
 setup.py
@@ -13,6 +12,13 @@ aurora_drive/__init__.py
 aurora_drive/ackermann_4wd_controller.py
 aurora_drive/ackermann_sim_controller.py
 aurora_drive/odometry_4ws.py
+aurora_drive.egg-info/PKG-INFO
+aurora_drive.egg-info/SOURCES.txt
+aurora_drive.egg-info/dependency_links.txt
+aurora_drive.egg-info/entry_points.txt
+aurora_drive.egg-info/requires.txt
+aurora_drive.egg-info/top_level.txt
+aurora_drive.egg-info/zip-safe
 config/controller_4ws.yaml
 config/joystick.yaml
 config/mapper_params_online_async.yaml
@@ -37,9 +43,6 @@ launch/rsp.launch.py
 launch/rsp_v2.launch.py
 launch/slam_launch.py
 resource/aurora_drive
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 world/house.world
 world/obstacle.world
 world/obstacle_v2.world
