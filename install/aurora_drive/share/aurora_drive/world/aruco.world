@@ -1,0 +1,25 @@
+<sdf version="1.6">
+  <world name="default">
+
+    <!-- ROS2 Gazebo -->
+    <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- ArUco marker
+    <include>
+      <uri>file:///home/fuga1129/aurora_sim_v2/src/aurora_drive/models/aruco_1</uri>
+      <pose>2 0 0.4 0 0 1.57</pose>
+    </include> -->
+
+
+
+  </world>
+</sdf>

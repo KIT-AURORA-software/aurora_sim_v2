@@ -12,6 +12,8 @@ setup.py
 aurora_drive/__init__.py
 aurora_drive/ackermann_4wd_controller.py
 aurora_drive/ackermann_sim_controller.py
+aurora_drive/aruco_map_builder.py
+aurora_drive/aruco_marker_mapper.py
 aurora_drive/odometry_4ws.py
 config/controller_4ws.yaml
 config/joystick.yaml
@@ -33,6 +35,7 @@ launch/joystick_real.launch.py
 launch/joystick_v2.launch.py
 launch/launch_sim.launch.py
 launch/launch_sim_v2.launch.py
+launch/launch_sim_v3.launch.py
 launch/rsp.launch.py
 launch/rsp_v2.launch.py
 launch/slam_launch.py
@@ -40,6 +43,7 @@ resource/aurora_drive
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+world/aruco.world
 world/house.world
 world/obstacle.world
 world/obstacle_v2.world
