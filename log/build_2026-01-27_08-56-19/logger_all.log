@@ -1,0 +1,428 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7223a706ca90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7223a719d9f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7223a719d9f0>>, mixin_verb=('build',))
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.239s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fuga1129/aurora_sim_v2'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora1) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora1) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora1) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora1) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora1) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora1) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora1) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora1) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora1) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aurora1' with type 'ros.ament_python' and name 'aurora1'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora_drive) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora_drive) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora_drive) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora_drive) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora_drive) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora_drive) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora_drive) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurora_drive) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aurora_drive' with type 'ros.ament_python' and name 'aurora_drive'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/opencv_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/opencv_ros2) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/opencv_ros2) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/opencv_ros2) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/opencv_ros2) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/opencv_ros2) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/opencv_ros2) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/opencv_ros2) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/opencv_ros2) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chapter5/opencv_ros2' with type 'ros.ament_python' and name 'opencv_ros2'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/yolov8_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/yolov8_ros2) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/yolov8_ros2) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/yolov8_ros2) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/yolov8_ros2) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/yolov8_ros2) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/yolov8_ros2) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/yolov8_ros2) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapter5/yolov8_ros2) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chapter5/yolov8_ros2' with type 'ros.ament_python' and name 'yolov8_ros2'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/fuga1129/aurora_sim_v2/install
+[0.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/fuga1129/moveit2_ws/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 415 installed packages in /opt/ros/humble
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora1' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora1' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora1' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora1' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora1' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'aurora1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/aurora_sim_v2/build/aurora1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/aurora_sim_v2/install/aurora1', 'merge_install': False, 'path': '/home/fuga1129/aurora_sim_v2/src/aurora1', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora_drive' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora_drive' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'aurora_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'aurora_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'aurora_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'aurora_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'aurora_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'aurora_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'aurora_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/aurora_sim_v2/build/aurora_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/aurora_sim_v2/install/aurora_drive', 'merge_install': False, 'path': '/home/fuga1129/aurora_sim_v2/src/aurora_drive', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/aurora_sim_v2/build/opencv_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/aurora_sim_v2/install/opencv_ros2', 'merge_install': False, 'path': '/home/fuga1129/aurora_sim_v2/src/chapter5/opencv_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/aurora_sim_v2/build/ros2_aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/aurora_sim_v2/install/ros2_aruco', 'merge_install': False, 'path': '/home/fuga1129/aurora_sim_v2/src/ros2_aruco/ros2_aruco', 'symlink_install': False, 'test_result_base': None}
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/aurora_sim_v2/build/ros2_aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces', 'merge_install': False, 'path': '/home/fuga1129/aurora_sim_v2/src/ros2_aruco/ros2_aruco_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fuga1129/aurora_sim_v2/build/yolov8_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2', 'merge_install': False, 'path': '/home/fuga1129/aurora_sim_v2/src/chapter5/yolov8_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.329s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.330s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fuga1129/aurora_sim_v2/src/aurora1' with build type 'ament_python'
+[0.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurora1', 'ament_prefix_path')
+[0.332s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/hook/ament_prefix_path.ps1'
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/hook/ament_prefix_path.dsv'
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/hook/ament_prefix_path.sh'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fuga1129/aurora_sim_v2/src/aurora_drive' with build type 'ament_python'
+[0.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurora_drive', 'ament_prefix_path')
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/hook/ament_prefix_path.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/hook/ament_prefix_path.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/hook/ament_prefix_path.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fuga1129/aurora_sim_v2/src/chapter5/opencv_ros2' with build type 'ament_python'
+[0.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_ros2', 'ament_prefix_path')
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/hook/ament_prefix_path.ps1'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/hook/ament_prefix_path.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/hook/ament_prefix_path.sh'
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fuga1129/aurora_sim_v2/src/ros2_aruco/ros2_aruco' with build type 'ament_python'
+[0.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'ament_prefix_path')
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.ps1'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.dsv'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.sh'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fuga1129/aurora_sim_v2/src/ros2_aruco/ros2_aruco_interfaces' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fuga1129/aurora_sim_v2/src/ros2_aruco/ros2_aruco_interfaces'
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fuga1129/aurora_sim_v2/src/chapter5/yolov8_ros2' with build type 'ament_python'
+[0.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_ros2', 'ament_prefix_path')
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/hook/ament_prefix_path.ps1'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/hook/ament_prefix_path.dsv'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/hook/ament_prefix_path.sh'
+[0.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.577s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fuga1129/aurora_sim_v2/src/aurora1'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.784s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fuga1129/aurora_sim_v2/src/aurora_drive'
+[0.784s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.980s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fuga1129/aurora_sim_v2/src/chapter5/opencv_ros2'
+[0.980s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.980s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.183s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fuga1129/aurora_sim_v2/src/ros2_aruco/ros2_aruco'
+[1.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/aurora_sim_v2/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fuga1129/aurora_sim_v2/build/ros2_aruco_interfaces -- -j12 -l12
+[1.422s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fuga1129/aurora_sim_v2/src/chapter5/yolov8_ros2'
+[1.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/aurora_sim_v2/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fuga1129/aurora_sim_v2/build/ros2_aruco_interfaces -- -j12 -l12
+[1.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/aurora_sim_v2/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fuga1129/aurora_sim_v2/build/ros2_aruco_interfaces
+[1.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/aurora_sim_v2/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fuga1129/aurora_sim_v2/install/ros2_aruco:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2:/home/fuga1129/aurora_sim_v2/install/opencv_ros2:/home/fuga1129/aurora_sim_v2/install/aurora_drive:/home/fuga1129/aurora_sim_v2/install/aurora1:/home/fuga1129/moveit2_ws/install/moveit_configs_utils:/home/fuga1129/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fuga1129/aurora_sim_v2/build/ros2_aruco_interfaces
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces' for CMake module files
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces' for CMake config files
+[1.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/lib'
+[1.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/bin'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/lib/python3.10/site-packages'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/bin'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[1.754s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[1.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces' for CMake module files
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces' for CMake config files
+[1.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/lib'
+[1.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/bin'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/lib/python3.10/site-packages'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/bin'
+[1.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[1.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/aurora_sim_v2/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/aurora_sim_v2/src/aurora_drive': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_drive build --build-base /home/fuga1129/aurora_sim_v2/build/aurora_drive/build install --record /home/fuga1129/aurora_sim_v2/build/aurora_drive/install.log --single-version-externally-managed install_data
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/aurora_sim_v2/src/aurora1': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora1 build --build-base /home/fuga1129/aurora_sim_v2/build/aurora1/build install --record /home/fuga1129/aurora_sim_v2/build/aurora1/install.log --single-version-externally-managed install_data
+[1.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/aurora_sim_v2/src/ros2_aruco/ros2_aruco': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/fuga1129/aurora_sim_v2/build/ros2_aruco/build install --record /home/fuga1129/aurora_sim_v2/build/ros2_aruco/install.log --single-version-externally-managed install_data
+[1.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/aurora_sim_v2/src/chapter5/yolov8_ros2': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros2 build --build-base /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build install --record /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/install.log --single-version-externally-managed install_data
+[1.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fuga1129/aurora_sim_v2/src/chapter5/opencv_ros2': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_ros2 build --build-base /home/fuga1129/aurora_sim_v2/build/opencv_ros2/build install --record /home/fuga1129/aurora_sim_v2/build/opencv_ros2/install.log --single-version-externally-managed install_data
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora_drive' for CMake module files
+[2.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/aurora_sim_v2/src/aurora_drive' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_drive build --build-base /home/fuga1129/aurora_sim_v2/build/aurora_drive/build install --record /home/fuga1129/aurora_sim_v2/build/aurora_drive/install.log --single-version-externally-managed install_data
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora_drive' for CMake config files
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora_drive/bin'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/pkgconfig/aurora_drive.pc'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages'
+[2.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurora_drive', 'pythonpath')
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/hook/pythonpath.ps1'
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/hook/pythonpath.dsv'
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/hook/pythonpath.sh'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora_drive/bin'
+[2.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aurora_drive)
+[2.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/package.ps1'
+[2.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/package.dsv'
+[2.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/package.sh'
+[2.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/package.bash'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/package.zsh'
+[2.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/colcon-core/packages/aurora_drive)
+[2.218s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco' for CMake module files
+[2.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/aurora_sim_v2/src/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/fuga1129/aurora_sim_v2/build/ros2_aruco/build install --record /home/fuga1129/aurora_sim_v2/build/ros2_aruco/install.log --single-version-externally-managed install_data
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco' for CMake config files
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/lib'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/bin'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/lib/pkgconfig/ros2_aruco.pc'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/lib/python3.10/site-packages'
+[2.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath')
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.ps1'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.dsv'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.sh'
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/bin'
+[2.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco)
+[2.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/package.ps1'
+[2.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/package.dsv'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/package.sh'
+[2.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/package.bash'
+[2.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/ros2_aruco/package.zsh'
+[2.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/aurora_sim_v2/install/ros2_aruco/share/colcon-core/packages/ros2_aruco)
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora1' for CMake module files
+[2.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/aurora_sim_v2/src/aurora1' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora1 build --build-base /home/fuga1129/aurora_sim_v2/build/aurora1/build install --record /home/fuga1129/aurora_sim_v2/build/aurora1/install.log --single-version-externally-managed install_data
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora1' for CMake config files
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora1/lib'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora1/bin'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora1/lib/pkgconfig/aurora1.pc'
+[2.230s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages'
+[2.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurora1', 'pythonpath')
+[2.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/hook/pythonpath.ps1'
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/hook/pythonpath.dsv'
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/hook/pythonpath.sh'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/aurora1/bin'
+[2.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aurora1)
+[2.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/package.ps1'
+[2.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/package.dsv'
+[2.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/package.sh'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/package.bash'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/aurora1/share/aurora1/package.zsh'
+[2.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/aurora_sim_v2/install/aurora1/share/colcon-core/packages/aurora1)
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2' for CMake module files
+[2.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/aurora_sim_v2/src/chapter5/yolov8_ros2' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros2 build --build-base /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build install --record /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/install.log --single-version-externally-managed install_data
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2' for CMake config files
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/bin'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/pkgconfig/yolov8_ros2.pc'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages'
+[2.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_ros2', 'pythonpath')
+[2.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/hook/pythonpath.ps1'
+[2.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/hook/pythonpath.dsv'
+[2.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/hook/pythonpath.sh'
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/bin'
+[2.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_ros2)
+[2.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/package.ps1'
+[2.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/package.dsv'
+[2.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/package.sh'
+[2.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/package.bash'
+[2.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2/package.zsh'
+[2.377s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/colcon-core/packages/yolov8_ros2)
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/opencv_ros2' for CMake module files
+[2.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fuga1129/aurora_sim_v2/src/chapter5/opencv_ros2' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/opencv_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_ros2 build --build-base /home/fuga1129/aurora_sim_v2/build/opencv_ros2/build install --record /home/fuga1129/aurora_sim_v2/build/opencv_ros2/install.log --single-version-externally-managed install_data
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/opencv_ros2' for CMake config files
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/lib'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/bin'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/lib/pkgconfig/opencv_ros2.pc'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/lib/python3.10/site-packages'
+[2.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_ros2', 'pythonpath')
+[2.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/hook/pythonpath.ps1'
+[2.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/hook/pythonpath.dsv'
+[2.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/hook/pythonpath.sh'
+[2.384s] Level 1:colcon.colcon_core.environment:checking '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/bin'
+[2.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_ros2)
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/package.ps1'
+[2.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/package.dsv'
+[2.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/package.sh'
+[2.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/package.bash'
+[2.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/opencv_ros2/package.zsh'
+[2.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fuga1129/aurora_sim_v2/install/opencv_ros2/share/colcon-core/packages/opencv_ros2)
+[2.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.388s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.395s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.395s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.395s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.407s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fuga1129/aurora_sim_v2/install/local_setup.ps1'
+[2.408s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fuga1129/aurora_sim_v2/install/_local_setup_util_ps1.py'
+[2.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fuga1129/aurora_sim_v2/install/setup.ps1'
+[2.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fuga1129/aurora_sim_v2/install/local_setup.sh'
+[2.411s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fuga1129/aurora_sim_v2/install/_local_setup_util_sh.py'
+[2.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fuga1129/aurora_sim_v2/install/setup.sh'
+[2.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fuga1129/aurora_sim_v2/install/local_setup.bash'
+[2.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fuga1129/aurora_sim_v2/install/setup.bash'
+[2.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fuga1129/aurora_sim_v2/install/local_setup.zsh'
+[2.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fuga1129/aurora_sim_v2/install/setup.zsh'

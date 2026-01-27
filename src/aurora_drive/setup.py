@@ -31,6 +31,8 @@ setup(
         'ackermann_4wd_controller = aurora_drive.ackermann_4wd_controller:main',
         'odometry_4ws = aurora_drive.odometry_4ws:main',
         'ackermann_sim_controller = aurora_drive.ackermann_sim_controller:main',
+        'aruco_marker_mapper = aurora_drive.aruco_marker_mapper:main',
+        'aruco_map_builder = aurora_drive.aruco_map_builder:main',
     ],
 },
 

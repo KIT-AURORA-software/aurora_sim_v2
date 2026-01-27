@@ -1,0 +1,23 @@
+[3.071s] Invoking command in '/home/fuga1129/aurora_sim_v2/build/yolov8_ros2': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build --no-deps symlink_data --force
+[3.628s] running develop
+[3.949s] running egg_info
+[3.950s] writing yolov8_ros2.egg-info/PKG-INFO
+[3.950s] writing dependency_links to yolov8_ros2.egg-info/dependency_links.txt
+[3.950s] writing entry points to yolov8_ros2.egg-info/entry_points.txt
+[3.950s] writing requirements to yolov8_ros2.egg-info/requires.txt
+[3.951s] writing top-level names to yolov8_ros2.egg-info/top_level.txt
+[3.954s] reading manifest file 'yolov8_ros2.egg-info/SOURCES.txt'
+[3.956s] writing manifest file 'yolov8_ros2.egg-info/SOURCES.txt'
+[3.960s] running build_ext
+[3.960s] Creating /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8-ros2.egg-link (link to .)
+[3.961s] Installing object_detection script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[3.961s] Installing object_detection_action_server script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[3.962s] Installing object_detection_srv script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[3.962s] Installing object_detection_tf script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[3.962s] Installing object_segmentation script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[3.963s] 
+[3.963s] Installed /home/fuga1129/aurora_sim_v2/build/yolov8_ros2
+[3.963s] running symlink_data
+[3.963s] symbolically linking /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/resource/yolov8_ros2 -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/ament_index/resource_index/packages
+[3.963s] symbolically linking /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/package.xml -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2
+[4.040s] Invoked command in '/home/fuga1129/aurora_sim_v2/build/yolov8_ros2' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build --no-deps symlink_data --force

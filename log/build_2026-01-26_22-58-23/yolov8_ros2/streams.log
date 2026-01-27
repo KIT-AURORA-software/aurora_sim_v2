@@ -1,0 +1,54 @@
+[0.963s] Invoking command in '/home/fuga1129/aurora_sim_v2/src/chapter5/yolov8_ros2': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros2 build --build-base /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build install --record /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/install.log --single-version-externally-managed install_data
+[1.173s] running egg_info
+[1.173s] creating ../../../build/yolov8_ros2/yolov8_ros2.egg-info
+[1.173s] writing ../../../build/yolov8_ros2/yolov8_ros2.egg-info/PKG-INFO
+[1.173s] writing dependency_links to ../../../build/yolov8_ros2/yolov8_ros2.egg-info/dependency_links.txt
+[1.173s] writing entry points to ../../../build/yolov8_ros2/yolov8_ros2.egg-info/entry_points.txt
+[1.173s] writing requirements to ../../../build/yolov8_ros2/yolov8_ros2.egg-info/requires.txt
+[1.173s] writing top-level names to ../../../build/yolov8_ros2/yolov8_ros2.egg-info/top_level.txt
+[1.173s] writing manifest file '../../../build/yolov8_ros2/yolov8_ros2.egg-info/SOURCES.txt'
+[1.174s] reading manifest file '../../../build/yolov8_ros2/yolov8_ros2.egg-info/SOURCES.txt'
+[1.174s] adding license file 'LICENSE'
+[1.175s] writing manifest file '../../../build/yolov8_ros2/yolov8_ros2.egg-info/SOURCES.txt'
+[1.175s] running build
+[1.175s] running build_py
+[1.175s] creating /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build
+[1.175s] creating /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib
+[1.175s] creating /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.175s] copying yolov8_ros2/__init__.py -> /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.175s] copying yolov8_ros2/object_detection_srv.py -> /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.175s] copying yolov8_ros2/object_detection_tf.py -> /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.175s] copying yolov8_ros2/object_detection_action_server.py -> /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.176s] copying yolov8_ros2/object_segmentation.py -> /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.176s] copying yolov8_ros2/object_detection.py -> /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.176s] running install
+[1.176s] running install_lib
+[1.176s] creating /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.176s] copying /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2/__init__.py -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.176s] copying /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2/object_detection_srv.py -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.176s] copying /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2/object_detection_tf.py -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.176s] copying /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2/object_detection_action_server.py -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.176s] copying /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2/object_segmentation.py -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.176s] copying /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build/lib/yolov8_ros2/object_detection.py -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.177s] byte-compiling /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/__init__.py to __init__.cpython-310.pyc
+[1.177s] byte-compiling /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/object_detection_srv.py to object_detection_srv.cpython-310.pyc
+[1.178s] byte-compiling /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/object_detection_tf.py to object_detection_tf.cpython-310.pyc
+[1.178s] byte-compiling /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/object_detection_action_server.py to object_detection_action_server.cpython-310.pyc
+[1.179s] byte-compiling /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/object_segmentation.py to object_segmentation.cpython-310.pyc
+[1.180s] byte-compiling /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/object_detection.py to object_detection.cpython-310.pyc
+[1.180s] running install_data
+[1.180s] creating /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/ament_index
+[1.180s] creating /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/ament_index/resource_index
+[1.180s] creating /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/ament_index/resource_index/packages
+[1.180s] copying resource/yolov8_ros2 -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/ament_index/resource_index/packages
+[1.180s] copying package.xml -> /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/share/yolov8_ros2
+[1.180s] running install_egg_info
+[1.181s] Copying ../../../build/yolov8_ros2/yolov8_ros2.egg-info to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2-2.0.0-py3.10.egg-info
+[1.182s] running install_scripts
+[1.195s] Installing object_detection script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[1.195s] Installing object_detection_action_server script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[1.195s] Installing object_detection_srv script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[1.195s] Installing object_detection_tf script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[1.195s] Installing object_segmentation script to /home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/yolov8_ros2
+[1.195s] writing list of installed files to '/home/fuga1129/aurora_sim_v2/build/yolov8_ros2/install.log'
+[1.214s] Invoked command in '/home/fuga1129/aurora_sim_v2/src/chapter5/yolov8_ros2' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros2 build --build-base /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/build install --record /home/fuga1129/aurora_sim_v2/build/yolov8_ros2/install.log --single-version-externally-managed install_data

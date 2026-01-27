@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000416] (-) JobUnselected: {'identifier': 'aurora1'}
+[0.000486] (-) JobUnselected: {'identifier': 'aurora_drive'}
+[0.000546] (-) JobUnselected: {'identifier': 'opencv_ros2'}
+[0.000575] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000602] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000629] (-) JobUnselected: {'identifier': 'yolov8_ros2'}
+[0.000939] (-) EventReactorShutdown: {}
