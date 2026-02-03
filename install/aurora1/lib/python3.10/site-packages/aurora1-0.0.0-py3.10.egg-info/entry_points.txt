@@ -1,0 +1,4 @@
+[console_scripts]
+ackermann_4wd_controller = aurora1.ackermann_4wd_controller:main
+ackermann_4wd_controller_real = aurora1.ackermann_4wd_controller_real:main
+

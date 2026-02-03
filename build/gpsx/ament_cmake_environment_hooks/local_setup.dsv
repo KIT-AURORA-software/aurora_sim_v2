@@ -1,0 +1,4 @@
+source;share/gpsx/environment/ament_prefix_path.sh
+source;share/gpsx/environment/library_path.sh
+source;share/gpsx/environment/path.sh
+source;share/gpsx/environment/pythonpath.sh

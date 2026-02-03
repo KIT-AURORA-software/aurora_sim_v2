@@ -1,0 +1,309 @@
+[1.466s] Invoking command in '/home/aurora/aurora_sim_v2/build/gpsx': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx -DCMAKE_INSTALL_PREFIX=/home/aurora/aurora_sim_v2/install/gpsx
+[2.145s] -- The C compiler identification is GNU 11.4.0
+[2.605s] -- The CXX compiler identification is GNU 11.4.0
+[2.636s] -- Detecting C compiler ABI info
+[2.788s] -- Detecting C compiler ABI info - done
+[2.808s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.809s] -- Detecting C compile features
+[2.812s] -- Detecting C compile features - done
+[2.823s] -- Detecting CXX compiler ABI info
+[2.986s] -- Detecting CXX compiler ABI info - done
+[2.998s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.999s] -- Detecting CXX compile features
+[3.000s] -- Detecting CXX compile features - done
+[3.009s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.360s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.623s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[3.753s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.775s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.801s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.836s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.013s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.023s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.272s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.359s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.503s] -- Looking for pthread.h
+[4.669s] -- Looking for pthread.h - found
+[4.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.830s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.834s] -- Found Threads: TRUE  
+[5.021s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.049s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.767s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.801s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.807s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.313s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.313s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.313s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.314s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[7.364s] -- Found PythonExtra: .so  
+[7.450s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[7.450s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[7.450s]   rosidl_target_interfaces()
+[7.451s] Call Stack (most recent call first):
+[7.451s]   CMakeLists.txt:31 (rosidl_target_interfaces)
+[7.451s] 
+[7.451s] [0m
+[7.455s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.546s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.550s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.552s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx/include>
+[7.552s] -- Configured cppcheck exclude dirs and/or files: 
+[7.555s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.555s] -- Configured cpplint exclude dirs and/or files: 
+[7.557s] -- Added test 'lint_cmake' to check CMake code style
+[7.559s] -- Added test 'uncrustify' to check C / C++ code style
+[7.560s] -- Configured uncrustify additional arguments: 
+[7.561s] -- Added test 'xmllint' to check XML markup files
+[7.568s] -- Configuring done
+[7.654s] -- Generating done
+[7.676s] -- Build files have been written to: /home/aurora/aurora_sim_v2/build/gpsx
+[7.706s] Invoked command in '/home/aurora/aurora_sim_v2/build/gpsx' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx -DCMAKE_INSTALL_PREFIX=/home/aurora/aurora_sim_v2/install/gpsx
+[7.710s] Invoking command in '/home/aurora/aurora_sim_v2/build/gpsx': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aurora/aurora_sim_v2/build/gpsx -- -j6 -l6
+[7.795s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.814s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.833s] [  4%] Built target ament_cmake_python_copy_gpsx
+[8.288s] running egg_info
+[8.288s] creating gpsx.egg-info
+[8.289s] writing gpsx.egg-info/PKG-INFO
+[8.289s] writing dependency_links to gpsx.egg-info/dependency_links.txt
+[8.289s] writing top-level names to gpsx.egg-info/top_level.txt
+[8.290s] writing manifest file 'gpsx.egg-info/SOURCES.txt'
+[8.294s] reading manifest file 'gpsx.egg-info/SOURCES.txt'
+[8.294s] writing manifest file 'gpsx.egg-info/SOURCES.txt'
+[8.360s] [  4%] Built target ament_cmake_python_build_gpsx_egg
+[8.483s] [  4%] Built target gpsx__cpp
+[8.503s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.503s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.503s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.518s] [ 14%] [32mBuilding C object CMakeFiles/gpsx__rosidl_generator_c.dir/rosidl_generator_c/gpsx/msg/detail/gpsx__functions.c.o[0m
+[8.518s] [ 17%] [32mBuilding C object CMakeFiles/gpsx__rosidl_generator_c.dir/rosidl_generator_c/gpsx/srv/detail/get_sat_list__functions.c.o[0m
+[8.677s] [ 19%] [32m[1mLinking C shared library libgpsx__rosidl_generator_c.so[0m
+[8.745s] [ 19%] Built target gpsx__rosidl_generator_c
+[8.762s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.763s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.763s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.017s] [ 29%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpsx/msg/gpsx__type_support.cpp.o[0m
+[9.135s] [ 31%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpsx/msg/detail/gpsx__type_support.cpp.o[0m
+[9.172s] [ 34%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpsx/msg/detail/dds_fastrtps/gpsx__type_support.cpp.o[0m
+[9.400s] [ 36%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpsx/msg/gpsx__type_support.cpp.o[0m
+[9.468s] [ 39%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpsx/srv/get_sat_list__type_support.cpp.o[0m
+[9.479s] [ 43%] [32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpsx/msg/detail/gpsx__type_support.c.o[0m
+[9.480s] [ 43%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpsx/msg/detail/gpsx__type_support_c.cpp.o[0m
+[9.545s] [ 48%] [32m[1mLinking CXX shared library libgpsx__rosidl_typesupport_c.so[0m
+[9.545s] [ 48%] [32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpsx/srv/detail/get_sat_list__type_support.c.o[0m
+[9.643s] [ 48%] Built target gpsx__rosidl_typesupport_c
+[9.661s] [ 53%] [32m[1mLinking C shared library libgpsx__rosidl_typesupport_introspection_c.so[0m
+[9.662s] [ 53%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpsx/srv/detail/get_sat_list__type_support_c.cpp.o[0m
+[9.695s] [ 56%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpsx/srv/get_sat_list__type_support.cpp.o[0m
+[9.779s] [ 56%] Built target gpsx__rosidl_typesupport_introspection_c
+[9.829s] [ 58%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpsx/srv/detail/dds_fastrtps/get_sat_list__type_support.cpp.o[0m
+[10.277s] [ 60%] [32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpsx/srv/detail/get_sat_list__type_support.cpp.o[0m
+[10.457s] [ 63%] [32m[1mLinking CXX shared library libgpsx__rosidl_typesupport_cpp.so[0m
+[10.579s] [ 63%] Built target gpsx__rosidl_typesupport_cpp
+[10.834s] [ 65%] [32m[1mLinking CXX shared library libgpsx__rosidl_typesupport_fastrtps_c.so[0m
+[11.009s] [ 65%] Built target gpsx__rosidl_typesupport_fastrtps_c
+[11.046s] [ 68%] [32m[1mLinking CXX shared library libgpsx__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.184s] [ 68%] Built target gpsx__rosidl_typesupport_fastrtps_cpp
+[11.234s] [ 70%] [32m[1mLinking CXX shared library libgpsx__rosidl_typesupport_introspection_cpp.so[0m
+[11.397s] [ 70%] Built target gpsx__rosidl_typesupport_introspection_cpp
+[11.446s] [ 70%] Built target gpsx
+[11.484s] [ 75%] [32mBuilding CXX object CMakeFiles/gps_node.dir/src/gps_node.cpp.o[0m
+[11.485s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.460s] [ 75%] Built target gpsx__py
+[12.497s] [ 80%] [32mBuilding C object CMakeFiles/gpsx__rosidl_generator_py.dir/rosidl_generator_py/gpsx/msg/_gpsx_s.c.o[0m
+[12.497s] [ 80%] [32mBuilding C object CMakeFiles/gpsx__rosidl_generator_py.dir/rosidl_generator_py/gpsx/srv/_get_sat_list_s.c.o[0m
+[12.833s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/gpsx/libgpsx__rosidl_generator_py.so[0m
+[12.909s] [ 82%] Built target gpsx__rosidl_generator_py
+[12.946s] [ 90%] [32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gpsx/_gpsx_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.947s] [ 90%] [32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gpsx/_gpsx_s.ep.rosidl_typesupport_c.c.o[0m
+[12.947s] [ 90%] [32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gpsx/_gpsx_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.134s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/gpsx/gpsx_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[13.135s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/gpsx/gpsx_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[13.135s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/gpsx/gpsx_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[13.197s] [ 97%] Built target gpsx__rosidl_typesupport_introspection_c__pyext
+[13.197s] [ 97%] Built target gpsx__rosidl_typesupport_fastrtps_c__pyext
+[13.197s] [ 97%] Built target gpsx__rosidl_typesupport_c__pyext
+[22.059s] [100%] [32m[1mLinking CXX executable gps_node[0m
+[22.743s] [100%] Built target gps_node
+[22.772s] Invoked command in '/home/aurora/aurora_sim_v2/build/gpsx' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aurora/aurora_sim_v2/build/gpsx -- -j6 -l6
+[22.800s] Invoking command in '/home/aurora/aurora_sim_v2/build/gpsx': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aurora/aurora_sim_v2/build/gpsx
+[22.821s] -- Install configuration: ""
+[22.821s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/ament_index/resource_index/rosidl_interfaces/gpsx
+[22.822s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx
+[22.822s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg
+[22.822s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_generator_c__visibility_control.h
+[22.822s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/gpsx.h
+[22.822s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail
+[22.823s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__functions.c
+[22.823s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__type_support.h
+[22.824s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__struct.h
+[22.824s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__functions.h
+[22.824s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv
+[22.824s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/get_sat_list.h
+[22.825s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail
+[22.825s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__struct.h
+[22.825s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__type_support.h
+[22.825s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__functions.h
+[22.825s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__functions.c
+[22.825s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/library_path.sh
+[22.826s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/library_path.dsv
+[22.826s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_generator_c.so
+[22.827s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_generator_c.so" to ""
+[22.827s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx
+[22.828s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg
+[22.828s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.828s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail
+[22.828s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__rosidl_typesupport_fastrtps_c.h
+[22.829s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv
+[22.829s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail
+[22.829s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__rosidl_typesupport_fastrtps_c.h
+[22.829s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_fastrtps_c.so
+[22.830s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_fastrtps_c.so" to ""
+[22.830s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx
+[22.830s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg
+[22.830s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/gpsx.hpp
+[22.830s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_generator_cpp__visibility_control.hpp
+[22.831s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail
+[22.831s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__builder.hpp
+[22.831s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__traits.hpp
+[22.831s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__struct.hpp
+[22.831s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__type_support.hpp
+[22.831s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv
+[22.832s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/get_sat_list.hpp
+[22.832s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail
+[22.832s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__builder.hpp
+[22.832s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__traits.hpp
+[22.832s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__type_support.hpp
+[22.832s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__struct.hpp
+[22.833s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx
+[22.833s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg
+[22.833s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail
+[22.833s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__rosidl_typesupport_fastrtps_cpp.hpp
+[22.833s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/dds_fastrtps
+[22.833s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.834s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv
+[22.834s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail
+[22.834s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__rosidl_typesupport_fastrtps_cpp.hpp
+[22.834s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/dds_fastrtps
+[22.834s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_fastrtps_cpp.so
+[22.835s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.835s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx
+[22.836s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg
+[22.836s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.836s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail
+[22.836s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__rosidl_typesupport_introspection_c.h
+[22.836s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__type_support.c
+[22.836s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv
+[22.836s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail
+[22.837s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__rosidl_typesupport_introspection_c.h
+[22.837s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__type_support.c
+[22.837s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_introspection_c.so
+[22.838s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_introspection_c.so" to ""
+[22.838s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_c.so
+[22.838s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_c.so" to ""
+[22.838s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx
+[22.839s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg
+[22.839s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail
+[22.839s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__rosidl_typesupport_introspection_cpp.hpp
+[22.839s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__type_support.cpp
+[22.840s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv
+[22.840s] -- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail
+[22.840s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__rosidl_typesupport_introspection_cpp.hpp
+[22.840s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__type_support.cpp
+[22.841s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_introspection_cpp.so
+[22.841s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_introspection_cpp.so" to ""
+[22.841s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_cpp.so
+[22.841s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_cpp.so" to ""
+[22.842s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/pythonpath.sh
+[22.843s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/pythonpath.dsv
+[22.844s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info
+[22.845s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info/SOURCES.txt
+[22.845s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info/PKG-INFO
+[22.846s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info/dependency_links.txt
+[22.846s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info/top_level.txt
+[22.846s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx
+[22.847s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[22.847s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[22.847s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/_gpsx_s.ep.rosidl_typesupport_fastrtps_c.c
+[22.847s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[22.848s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/libgpsx__rosidl_generator_py.so
+[22.848s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg
+[22.848s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/_gpsx.py
+[22.848s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/_gpsx_s.c
+[22.849s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/__init__.py
+[22.849s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv
+[22.849s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/_get_sat_list.py
+[22.849s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/_get_sat_list_s.c
+[22.850s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/__init__.py
+[22.850s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/_gpsx_s.ep.rosidl_typesupport_introspection_c.c
+[22.850s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/__init__.py
+[22.850s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/_gpsx_s.ep.rosidl_typesupport_c.c
+[22.918s] Listing '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx'...
+[22.918s] Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/__init__.py'...
+[22.918s] Listing '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg'...
+[22.919s] Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/__init__.py'...
+[22.919s] Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/_gpsx.py'...
+[22.919s] Listing '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv'...
+[22.919s] Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/__init__.py'...
+[22.920s] Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/_get_sat_list.py'...
+[22.929s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[22.929s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[22.930s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[22.930s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[22.931s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[22.931s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[22.932s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_generator_py.so
+[22.932s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_generator_py.so" to ""
+[22.932s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/msg/Gpsx.idl
+[22.933s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/srv/GetSatList.idl
+[22.934s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/msg/Gpsx.msg
+[22.935s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/srv/GetSatList.srv
+[22.935s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/srv/GetSatList_Request.msg
+[22.935s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/srv/GetSatList_Response.msg
+[22.935s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/gpsx/gps_node
+[22.938s] -- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/gpsx/gps_node" to ""
+[22.938s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/ament_index/resource_index/package_run_dependencies/gpsx
+[22.939s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/ament_index/resource_index/parent_prefix_path/gpsx
+[22.939s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/ament_prefix_path.sh
+[22.940s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/ament_prefix_path.dsv
+[22.942s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/path.sh
+[22.942s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/path.dsv
+[22.942s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/local_setup.bash
+[22.943s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/local_setup.sh
+[22.943s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/local_setup.zsh
+[22.943s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/local_setup.dsv
+[22.944s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/package.dsv
+[22.944s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/ament_index/resource_index/packages/gpsx
+[22.944s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_cExport.cmake
+[22.945s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_cExport-noconfig.cmake
+[22.945s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_typesupport_fastrtps_cExport.cmake
+[22.945s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.946s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_cppExport.cmake
+[22.946s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.947s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.947s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_introspection_cExport.cmake
+[22.948s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.948s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_cExport.cmake
+[22.949s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_cExport-noconfig.cmake
+[22.950s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_introspection_cppExport.cmake
+[22.950s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.950s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_cppExport.cmake
+[22.951s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_cppExport-noconfig.cmake
+[22.951s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_pyExport.cmake
+[22.951s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_pyExport-noconfig.cmake
+[22.951s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/rosidl_cmake-extras.cmake
+[22.952s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.953s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/ament_cmake_export_libraries-extras.cmake
+[22.956s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/ament_cmake_export_targets-extras.cmake
+[22.956s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.957s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.957s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.957s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsxConfig.cmake
+[22.958s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsxConfig-version.cmake
+[22.958s] -- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/package.xml
+[22.959s] Invoked command in '/home/aurora/aurora_sim_v2/build/gpsx' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aurora/aurora_sim_v2/build/gpsx

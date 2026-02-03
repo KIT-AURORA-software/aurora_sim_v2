@@ -1,0 +1,6 @@
+setup.py
+gpsx/__init__.py
+gpsx.egg-info/PKG-INFO
+gpsx.egg-info/SOURCES.txt
+gpsx.egg-info/dependency_links.txt
+gpsx.egg-info/top_level.txt

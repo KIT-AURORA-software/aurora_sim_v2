@@ -1,1 +1,23 @@
-/home/aurora/aurora_sim_v2/build/aurora_drive/world/house.world
+<sdf version="1.6">
+  <world name="default">
+
+    <!-- ROS2 Gazebo -->
+    <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://turtlebot3_house</uri>
+      <name>house</name>
+      <static>true</static>
+    </include>
+
+  </world>
+</sdf>

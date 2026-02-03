@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gpsx__py",
+		"source" : "/home/aurora/aurora_sim_v2/build/gpsx/gpsx__py"
+	}
+}

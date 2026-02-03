@@ -1,0 +1,6 @@
+msg/Gpsx.idl
+msg/Gpsx.msg
+srv/GetSatList.idl
+srv/GetSatList.srv
+srv/GetSatList_Request.msg
+srv/GetSatList_Response.msg

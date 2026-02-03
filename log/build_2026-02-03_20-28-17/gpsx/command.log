@@ -1,0 +1,6 @@
+Invoking command in '/home/aurora/aurora_sim_v2/build/gpsx': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx -DCMAKE_INSTALL_PREFIX=/home/aurora/aurora_sim_v2/install/gpsx
+Invoked command in '/home/aurora/aurora_sim_v2/build/gpsx' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx -DCMAKE_INSTALL_PREFIX=/home/aurora/aurora_sim_v2/install/gpsx
+Invoking command in '/home/aurora/aurora_sim_v2/build/gpsx': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aurora/aurora_sim_v2/build/gpsx -- -j6 -l6
+Invoked command in '/home/aurora/aurora_sim_v2/build/gpsx' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aurora/aurora_sim_v2/build/gpsx -- -j6 -l6
+Invoking command in '/home/aurora/aurora_sim_v2/build/gpsx': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aurora/aurora_sim_v2/build/gpsx
+Invoked command in '/home/aurora/aurora_sim_v2/build/gpsx' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aurora/aurora_sim_v2/build/gpsx

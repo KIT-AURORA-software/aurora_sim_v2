@@ -1,0 +1,7 @@
+{
+  "package_name": "gpsx",
+  "non_idl_tuples": [
+    "/home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx:msg/Gpsx.msg",
+    "/home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx:srv/GetSatList.srv"
+  ]
+}

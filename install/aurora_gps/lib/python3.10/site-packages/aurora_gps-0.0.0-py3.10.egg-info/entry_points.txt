@@ -1,0 +1,3 @@
+[console_scripts]
+aurora_gps = aurora_gps.aurora_gps:main
+

@@ -1,0 +1,717 @@
+[0.000000] (-) TimerEvent: {}
+[0.000869] (aurora1) JobQueued: {'identifier': 'aurora1', 'dependencies': OrderedDict()}
+[0.001148] (aurora_drive) JobQueued: {'identifier': 'aurora_drive', 'dependencies': OrderedDict()}
+[0.001407] (aurora_gps) JobQueued: {'identifier': 'aurora_gps', 'dependencies': OrderedDict()}
+[0.001495] (gpsx) JobQueued: {'identifier': 'gpsx', 'dependencies': OrderedDict()}
+[0.001570] (aurora1) JobStarted: {'identifier': 'aurora1'}
+[0.024787] (aurora_drive) JobStarted: {'identifier': 'aurora_drive'}
+[0.033675] (aurora_gps) JobStarted: {'identifier': 'aurora_gps'}
+[0.042065] (gpsx) JobStarted: {'identifier': 'gpsx'}
+[0.099400] (-) TimerEvent: {}
+[0.199993] (-) TimerEvent: {}
+[0.300592] (-) TimerEvent: {}
+[0.401220] (-) TimerEvent: {}
+[0.501870] (-) TimerEvent: {}
+[0.602926] (-) TimerEvent: {}
+[0.703598] (-) TimerEvent: {}
+[0.804480] (-) TimerEvent: {}
+[0.905439] (-) TimerEvent: {}
+[1.006269] (-) TimerEvent: {}
+[1.107364] (-) TimerEvent: {}
+[1.208205] (-) TimerEvent: {}
+[1.309053] (-) TimerEvent: {}
+[1.409942] (-) TimerEvent: {}
+[1.502604] (gpsx) JobProgress: {'identifier': 'gpsx', 'progress': 'cmake'}
+[1.504623] (gpsx) Command: {'cmd': ['/usr/bin/cmake', '/home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx', '-DCMAKE_INSTALL_PREFIX=/home/aurora/aurora_sim_v2/install/gpsx'], 'cwd': '/home/aurora/aurora_sim_v2/build/gpsx', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('OLDPWD', '/home/aurora/aurora_sim_v2/src/ros2GPSx'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2183'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aurora'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aurora-desktop:@/tmp/.ICE-unix/2156,unix/aurora-desktop:/tmp/.ICE-unix/2156'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbd28365_2634_43c7_a5ce_e884bf3dfc6e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/aurora_sim_v2/build/gpsx'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.510088] (-) TimerEvent: {}
+[1.610985] (-) TimerEvent: {}
+[1.711635] (-) TimerEvent: {}
+[1.812627] (-) TimerEvent: {}
+[1.913242] (-) TimerEvent: {}
+[2.013878] (-) TimerEvent: {}
+[2.114581] (-) TimerEvent: {}
+[2.186931] (gpsx) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.214783] (-) TimerEvent: {}
+[2.315803] (-) TimerEvent: {}
+[2.416899] (-) TimerEvent: {}
+[2.517878] (-) TimerEvent: {}
+[2.618554] (-) TimerEvent: {}
+[2.646709] (gpsx) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.677638] (gpsx) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.718716] (-) TimerEvent: {}
+[2.819433] (-) TimerEvent: {}
+[2.829863] (gpsx) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.850160] (gpsx) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.851336] (gpsx) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.854417] (gpsx) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.864815] (gpsx) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.919579] (-) TimerEvent: {}
+[3.020266] (-) TimerEvent: {}
+[3.027663] (gpsx) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.040115] (gpsx) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.040784] (gpsx) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.042106] (gpsx) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.050759] (gpsx) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.098281] (aurora1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/aurora/aurora_sim_v2/build/aurora1/build'], 'cwd': '/home/aurora/aurora_sim_v2/build/aurora1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aurora', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aurora', 'OLDPWD': '/home/aurora/aurora_sim_v2/src/ros2GPSx', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2183', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aurora', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aurora', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aurora-desktop:@/tmp/.ICE-unix/2156,unix/aurora-desktop:/tmp/.ICE-unix/2156', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fbd28365_2634_43c7_a5ce_e884bf3dfc6e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aurora/aurora_sim_v2/build/aurora1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aurora/aurora_sim_v2/build/aurora1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.104301] (aurora_drive) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/aurora/aurora_sim_v2/build/aurora_drive/build'], 'cwd': '/home/aurora/aurora_sim_v2/build/aurora_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aurora', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aurora', 'OLDPWD': '/home/aurora/aurora_sim_v2/src/ros2GPSx', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2183', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aurora', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aurora', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aurora-desktop:@/tmp/.ICE-unix/2156,unix/aurora-desktop:/tmp/.ICE-unix/2156', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fbd28365_2634_43c7_a5ce_e884bf3dfc6e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aurora/aurora_sim_v2/build/aurora_drive', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aurora/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.114911] (aurora_gps) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/aurora_gps', 'build', '--build-base', '/home/aurora/aurora_sim_v2/build/aurora_gps/build', 'install', '--record', '/home/aurora/aurora_sim_v2/build/aurora_gps/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aurora/aurora_sim_v2/src/aurora_gps', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aurora', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aurora', 'OLDPWD': '/home/aurora/aurora_sim_v2/src/ros2GPSx', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2183', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aurora', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aurora', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aurora-desktop:@/tmp/.ICE-unix/2156,unix/aurora-desktop:/tmp/.ICE-unix/2156', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fbd28365_2634_43c7_a5ce_e884bf3dfc6e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aurora/aurora_sim_v2/build/aurora_gps', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aurora/aurora_sim_v2/build/aurora_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.120344] (-) TimerEvent: {}
+[3.220935] (-) TimerEvent: {}
+[3.321615] (-) TimerEvent: {}
+[3.402001] (gpsx) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.421760] (-) TimerEvent: {}
+[3.522344] (-) TimerEvent: {}
+[3.590565] (aurora_drive) StdoutLine: {'line': b'running develop\n'}
+[3.592477] (aurora_gps) StdoutLine: {'line': b'running egg_info\n'}
+[3.594121] (aurora_gps) StdoutLine: {'line': b'creating ../../build/aurora_gps/aurora_gps.egg-info\n'}
+[3.594592] (aurora_gps) StdoutLine: {'line': b'writing ../../build/aurora_gps/aurora_gps.egg-info/PKG-INFO\n'}
+[3.595162] (aurora_gps) StdoutLine: {'line': b'writing dependency_links to ../../build/aurora_gps/aurora_gps.egg-info/dependency_links.txt\n'}
+[3.595408] (aurora_gps) StdoutLine: {'line': b'writing entry points to ../../build/aurora_gps/aurora_gps.egg-info/entry_points.txt\n'}
+[3.595613] (aurora_gps) StdoutLine: {'line': b'writing requirements to ../../build/aurora_gps/aurora_gps.egg-info/requires.txt\n'}
+[3.595811] (aurora_gps) StdoutLine: {'line': b'writing top-level names to ../../build/aurora_gps/aurora_gps.egg-info/top_level.txt\n'}
+[3.596282] (aurora_gps) StdoutLine: {'line': b"writing manifest file '../../build/aurora_gps/aurora_gps.egg-info/SOURCES.txt'\n"}
+[3.600486] (aurora_gps) StdoutLine: {'line': b"reading manifest file '../../build/aurora_gps/aurora_gps.egg-info/SOURCES.txt'\n"}
+[3.601727] (aurora_gps) StdoutLine: {'line': b"writing manifest file '../../build/aurora_gps/aurora_gps.egg-info/SOURCES.txt'\n"}
+[3.602049] (aurora_gps) StdoutLine: {'line': b'running build\n'}
+[3.602204] (aurora_gps) StdoutLine: {'line': b'running build_py\n'}
+[3.602389] (aurora_gps) StdoutLine: {'line': b'creating /home/aurora/aurora_sim_v2/build/aurora_gps/build\n'}
+[3.602586] (aurora_gps) StdoutLine: {'line': b'creating /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib\n'}
+[3.602730] (aurora_gps) StdoutLine: {'line': b'creating /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps\n'}
+[3.602903] (aurora_gps) StdoutLine: {'line': b'copying aurora_gps/aurora_gps.py -> /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps\n'}
+[3.603081] (aurora_gps) StdoutLine: {'line': b'copying aurora_gps/__init__.py -> /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps\n'}
+[3.603301] (aurora_gps) StdoutLine: {'line': b'running install\n'}
+[3.603959] (aurora_gps) StdoutLine: {'line': b'running install_lib\n'}
+[3.605355] (aurora_gps) StdoutLine: {'line': b'creating /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps\n'}
+[3.605642] (aurora_gps) StdoutLine: {'line': b'copying /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps/aurora_gps.py -> /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps\n'}
+[3.605857] (aurora_gps) StdoutLine: {'line': b'copying /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps/__init__.py -> /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps\n'}
+[3.606823] (aurora_gps) StdoutLine: {'line': b'byte-compiling /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps/aurora_gps.py to aurora_gps.cpython-310.pyc\n'}
+[3.607955] (aurora_gps) StdoutLine: {'line': b'byte-compiling /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps/__init__.py to __init__.cpython-310.pyc\n'}
+[3.608292] (aurora_gps) StdoutLine: {'line': b'running install_data\n'}
+[3.608509] (aurora_gps) StdoutLine: {'line': b'creating /home/aurora/aurora_sim_v2/install/aurora_gps/share/ament_index\n'}
+[3.608738] (aurora_gps) StdoutLine: {'line': b'creating /home/aurora/aurora_sim_v2/install/aurora_gps/share/ament_index/resource_index\n'}
+[3.608885] (aurora_gps) StdoutLine: {'line': b'creating /home/aurora/aurora_sim_v2/install/aurora_gps/share/ament_index/resource_index/packages\n'}
+[3.609064] (aurora_gps) StdoutLine: {'line': b'copying resource/aurora_gps -> /home/aurora/aurora_sim_v2/install/aurora_gps/share/ament_index/resource_index/packages\n'}
+[3.609234] (aurora_gps) StdoutLine: {'line': b'copying package.xml -> /home/aurora/aurora_sim_v2/install/aurora_gps/share/aurora_gps\n'}
+[3.609400] (aurora_gps) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.616372] (aurora_gps) StdoutLine: {'line': b'Copying ../../build/aurora_gps/aurora_gps.egg-info to /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps-0.0.0-py3.10.egg-info\n'}
+[3.618251] (aurora_gps) StdoutLine: {'line': b'running install_scripts\n'}
+[3.622444] (-) TimerEvent: {}
+[3.645465] (aurora1) StdoutLine: {'line': b'running develop\n'}
+[3.659246] (aurora_gps) StdoutLine: {'line': b"writing list of installed files to '/home/aurora/aurora_sim_v2/build/aurora_gps/install.log'\n"}
+[3.664829] (gpsx) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.722620] (-) TimerEvent: {}
+[3.737968] (aurora_gps) CommandEnded: {'returncode': 0}
+[3.772972] (aurora_gps) JobEnded: {'identifier': 'aurora_gps', 'rc': 0}
+[3.795029] (gpsx) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.817175] (gpsx) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.822684] (-) TimerEvent: {}
+[3.843084] (gpsx) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.877754] (gpsx) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.879821] (aurora_drive) StdoutLine: {'line': b'Removing /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora-drive.egg-link (link to .)\n'}
+[3.919092] (gpsx) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.922817] (-) TimerEvent: {}
+[3.952874] (aurora_drive) CommandEnded: {'returncode': 0}
+[3.956439] (aurora_drive) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/aurora_drive', 'build', '--build-base', '/home/aurora/aurora_sim_v2/build/aurora_drive/build', 'install', '--record', '/home/aurora/aurora_sim_v2/build/aurora_drive/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/aurora/aurora_sim_v2/src/aurora_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aurora', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aurora', 'OLDPWD': '/home/aurora/aurora_sim_v2/src/ros2GPSx', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2183', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aurora', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aurora', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aurora-desktop:@/tmp/.ICE-unix/2156,unix/aurora-desktop:/tmp/.ICE-unix/2156', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fbd28365_2634_43c7_a5ce_e884bf3dfc6e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aurora/aurora_sim_v2/build/aurora_drive', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aurora/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.984625] (aurora1) StdoutLine: {'line': b'Removing /home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1.egg-link (link to .)\n'}
+[4.022995] (-) TimerEvent: {}
+[4.055185] (gpsx) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.064820] (gpsx) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.084143] (aurora1) CommandEnded: {'returncode': 0}
+[4.086864] (aurora1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/aurora1', 'build', '--build-base', '/home/aurora/aurora_sim_v2/build/aurora1/build', 'install', '--record', '/home/aurora/aurora_sim_v2/build/aurora1/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/aurora/aurora_sim_v2/src/aurora1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aurora', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aurora', 'OLDPWD': '/home/aurora/aurora_sim_v2/src/ros2GPSx', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2183', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aurora', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aurora', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aurora-desktop:@/tmp/.ICE-unix/2156,unix/aurora-desktop:/tmp/.ICE-unix/2156', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fbd28365_2634_43c7_a5ce_e884bf3dfc6e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aurora/aurora_sim_v2/build/aurora1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aurora/aurora_sim_v2/build/aurora1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.123157] (-) TimerEvent: {}
+[4.223805] (-) TimerEvent: {}
+[4.314307] (gpsx) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.323979] (-) TimerEvent: {}
+[4.401069] (gpsx) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.411336] (aurora_drive) StdoutLine: {'line': b'running egg_info\n'}
+[4.412777] (aurora_drive) StdoutLine: {'line': b'writing ../../build/aurora_drive/aurora_drive.egg-info/PKG-INFO\n'}
+[4.413463] (aurora_drive) StdoutLine: {'line': b'writing dependency_links to ../../build/aurora_drive/aurora_drive.egg-info/dependency_links.txt\n'}
+[4.414130] (aurora_drive) StdoutLine: {'line': b'writing entry points to ../../build/aurora_drive/aurora_drive.egg-info/entry_points.txt\n'}
+[4.414298] (aurora_drive) StdoutLine: {'line': b'writing requirements to ../../build/aurora_drive/aurora_drive.egg-info/requires.txt\n'}
+[4.415126] (aurora_drive) StdoutLine: {'line': b'writing top-level names to ../../build/aurora_drive/aurora_drive.egg-info/top_level.txt\n'}
+[4.419489] (aurora_drive) StdoutLine: {'line': b"reading manifest file '../../build/aurora_drive/aurora_drive.egg-info/SOURCES.txt'\n"}
+[4.422101] (aurora_drive) StdoutLine: {'line': b"writing manifest file '../../build/aurora_drive/aurora_drive.egg-info/SOURCES.txt'\n"}
+[4.422872] (aurora_drive) StdoutLine: {'line': b'running build\n'}
+[4.423189] (aurora_drive) StdoutLine: {'line': b'running build_py\n'}
+[4.423738] (aurora_drive) StdoutLine: {'line': b'running install\n'}
+[4.424029] (-) TimerEvent: {}
+[4.424520] (aurora_drive) StdoutLine: {'line': b'running install_lib\n'}
+[4.425548] (aurora_drive) StdoutLine: {'line': b'creating /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive\n'}
+[4.425974] (aurora_drive) StdoutLine: {'line': b'copying /home/aurora/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive/ackermann_sim_controller.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive\n'}
+[4.426923] (aurora_drive) StdoutLine: {'line': b'copying /home/aurora/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive/odometry_4ws.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive\n'}
+[4.427475] (aurora_drive) StdoutLine: {'line': b'copying /home/aurora/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive/ackermann_4wd_controller.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive\n'}
+[4.428275] (aurora_drive) StdoutLine: {'line': b'copying /home/aurora/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive/__init__.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive\n'}
+[4.429459] (aurora_drive) StdoutLine: {'line': b'byte-compiling /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/ackermann_sim_controller.py to ackermann_sim_controller.cpython-310.pyc\n'}
+[4.430983] (aurora_drive) StdoutLine: {'line': b'byte-compiling /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/odometry_4ws.py to odometry_4ws.cpython-310.pyc\n'}
+[4.432693] (aurora_drive) StdoutLine: {'line': b'byte-compiling /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/ackermann_4wd_controller.py to ackermann_4wd_controller.cpython-310.pyc\n'}
+[4.434175] (aurora_drive) StdoutLine: {'line': b'byte-compiling /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__init__.py to __init__.cpython-310.pyc\n'}
+[4.434485] (aurora_drive) StdoutLine: {'line': b'running install_data\n'}
+[4.434720] (aurora_drive) StdoutLine: {'line': b'copying resource/aurora_drive -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/ament_index/resource_index/packages\n'}
+[4.435619] (aurora_drive) StdoutLine: {'line': b'copying package.xml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive\n'}
+[4.435937] (aurora_drive) StdoutLine: {'line': b'copying launch/joystick_real.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.436122] (aurora_drive) StdoutLine: {'line': b'copying launch/joystick.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.436731] (aurora_drive) StdoutLine: {'line': b'copying launch/joystick_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.438388] (aurora_drive) StdoutLine: {'line': b'copying launch/all.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.439112] (aurora_drive) StdoutLine: {'line': b'copying launch/launch_sim.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.439800] (aurora_drive) StdoutLine: {'line': b'copying launch/rsp.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.440378] (aurora_drive) StdoutLine: {'line': b'copying launch/rsp_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.441085] (aurora_drive) StdoutLine: {'line': b'copying launch/launch_sim_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.441875] (aurora_drive) StdoutLine: {'line': b'copying launch/joystick_real.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.442032] (aurora_drive) StdoutLine: {'line': b'copying launch/slam_launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.442423] (aurora_drive) StdoutLine: {'line': b'copying launch/joystick.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.442623] (aurora_drive) StdoutLine: {'line': b'copying launch/joystick_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.442844] (aurora_drive) StdoutLine: {'line': b'copying launch/all.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.443021] (aurora_drive) StdoutLine: {'line': b'copying launch/launch_sim.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.443253] (aurora_drive) StdoutLine: {'line': b'copying launch/rsp.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.443430] (aurora_drive) StdoutLine: {'line': b'copying launch/rsp_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.443607] (aurora_drive) StdoutLine: {'line': b'copying launch/launch_sim_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch\n'}
+[4.443966] (aurora_drive) StdoutLine: {'line': b'copying config/twist_mux.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config\n'}
+[4.444713] (aurora_drive) StdoutLine: {'line': b'copying config/joystick.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config\n'}
+[4.446931] (aurora_drive) StdoutLine: {'line': b'copying config/controller_4ws.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config\n'}
+[4.447817] (aurora_drive) StdoutLine: {'line': b'copying config/slam_toolbox.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config\n'}
+[4.448401] (aurora_drive) StdoutLine: {'line': b'copying config/mapper_params_online_async.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config\n'}
+[4.449232] (aurora_drive) StdoutLine: {'line': b'copying config/nav2_param.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config\n'}
+[4.450110] (aurora_drive) StdoutLine: {'line': b'copying config/rover_controller_4wd_v2.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config\n'}
+[4.450546] (aurora_drive) StdoutLine: {'line': b'copying description/robot.urdf.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description\n'}
+[4.451995] (aurora_drive) StdoutLine: {'line': b'copying description/camera.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description\n'}
+[4.452274] (aurora_drive) StdoutLine: {'line': b'copying description/inertial_macros.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description\n'}
+[4.452498] (aurora_drive) StdoutLine: {'line': b'copying description/depth_camera.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description\n'}
+[4.453214] (aurora_drive) StdoutLine: {'line': b'copying description/ros2_control_4wd_v2.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description\n'}
+[4.453774] (aurora_drive) StdoutLine: {'line': b'copying description/lidar.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description\n'}
+[4.454387] (aurora_drive) StdoutLine: {'line': b'copying description/robot_core_4wd_v2.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description\n'}
+[4.455087] (aurora_drive) StdoutLine: {'line': b'copying world/obstacle.world -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/world\n'}
+[4.456265] (aurora_drive) StdoutLine: {'line': b'copying world/obstacle_v2.world -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/world\n'}
+[4.457810] (aurora_drive) StdoutLine: {'line': b'copying world/house.world -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/world\n'}
+[4.458176] (aurora_drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.464989] (aurora_drive) StdoutLine: {'line': b'Copying ../../build/aurora_drive/aurora_drive.egg-info to /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive-0.0.0-py3.10.egg-info\n'}
+[4.467393] (aurora_drive) StdoutLine: {'line': b'running install_scripts\n'}
+[4.504021] (aurora_drive) StdoutLine: {'line': b'Installing ackermann_4wd_controller script to /home/aurora/aurora_sim_v2/install/aurora_drive/lib/aurora_drive\n'}
+[4.504515] (aurora_drive) StdoutLine: {'line': b'Installing ackermann_sim_controller script to /home/aurora/aurora_sim_v2/install/aurora_drive/lib/aurora_drive\n'}
+[4.504748] (aurora_drive) StdoutLine: {'line': b'Installing odometry_4ws script to /home/aurora/aurora_sim_v2/install/aurora_drive/lib/aurora_drive\n'}
+[4.505574] (aurora_drive) StdoutLine: {'line': b"writing list of installed files to '/home/aurora/aurora_sim_v2/build/aurora_drive/install.log'\n"}
+[4.514791] (gpsx) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.524205] (-) TimerEvent: {}
+[4.544020] (aurora1) StdoutLine: {'line': b'running egg_info\n'}
+[4.545305] (gpsx) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.545993] (aurora1) StdoutLine: {'line': b'writing ../../build/aurora1/aurora1.egg-info/PKG-INFO\n'}
+[4.546188] (aurora1) StdoutLine: {'line': b'writing dependency_links to ../../build/aurora1/aurora1.egg-info/dependency_links.txt\n'}
+[4.547181] (aurora1) StdoutLine: {'line': b'writing entry points to ../../build/aurora1/aurora1.egg-info/entry_points.txt\n'}
+[4.547398] (aurora1) StdoutLine: {'line': b'writing requirements to ../../build/aurora1/aurora1.egg-info/requires.txt\n'}
+[4.547541] (aurora1) StdoutLine: {'line': b'writing top-level names to ../../build/aurora1/aurora1.egg-info/top_level.txt\n'}
+[4.550703] (aurora1) StdoutLine: {'line': b"reading manifest file '../../build/aurora1/aurora1.egg-info/SOURCES.txt'\n"}
+[4.553354] (aurora1) StdoutLine: {'line': b"writing manifest file '../../build/aurora1/aurora1.egg-info/SOURCES.txt'\n"}
+[4.553830] (aurora1) StdoutLine: {'line': b'running build\n'}
+[4.554279] (aurora1) StdoutLine: {'line': b'running build_py\n'}
+[4.554467] (aurora1) StdoutLine: {'line': b'copying aurora1/ackermann_4wd_controller.py -> /home/aurora/aurora_sim_v2/build/aurora1/build/lib/aurora1\n'}
+[4.557644] (aurora1) StdoutLine: {'line': b'running install\n'}
+[4.558452] (aurora1) StdoutLine: {'line': b'running install_lib\n'}
+[4.560119] (aurora1) StdoutLine: {'line': b'creating /home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1\n'}
+[4.560405] (aurora1) StdoutLine: {'line': b'copying /home/aurora/aurora_sim_v2/build/aurora1/build/lib/aurora1/ackermann_4wd_controller.py -> /home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1\n'}
+[4.560772] (aurora1) StdoutLine: {'line': b'copying /home/aurora/aurora_sim_v2/build/aurora1/build/lib/aurora1/ackermann_4wd_controller_real.py -> /home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1\n'}
+[4.561441] (aurora1) StdoutLine: {'line': b'copying /home/aurora/aurora_sim_v2/build/aurora1/build/lib/aurora1/__init__.py -> /home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1\n'}
+[4.562610] (aurora1) StdoutLine: {'line': b'byte-compiling /home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1/ackermann_4wd_controller.py to ackermann_4wd_controller.cpython-310.pyc\n'}
+[4.564754] (aurora1) StdoutLine: {'line': b'byte-compiling /home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1/ackermann_4wd_controller_real.py to ackermann_4wd_controller_real.cpython-310.pyc\n'}
+[4.566171] (aurora1) StdoutLine: {'line': b'byte-compiling /home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1/__init__.py to __init__.cpython-310.pyc\n'}
+[4.566493] (aurora1) StdoutLine: {'line': b'running install_data\n'}
+[4.566721] (aurora1) StdoutLine: {'line': b'copying resource/aurora1 -> /home/aurora/aurora_sim_v2/install/aurora1/share/ament_index/resource_index/packages\n'}
+[4.567059] (aurora1) StdoutLine: {'line': b'copying package.xml -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1\n'}
+[4.567342] (aurora1) StdoutLine: {'line': b'copying launch/joystick_real.launch.py -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/launch\n'}
+[4.568095] (aurora1) StdoutLine: {'line': b'copying launch/joystick.launch.py -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/launch\n'}
+[4.568726] (aurora1) StdoutLine: {'line': b'copying launch/launch_sim.launch.py -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/launch\n'}
+[4.569384] (aurora1) StdoutLine: {'line': b'copying launch/rsp.launch.py -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/launch\n'}
+[4.570042] (aurora1) StdoutLine: {'line': b'copying config/joystick.yaml -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/config\n'}
+[4.570694] (aurora1) StdoutLine: {'line': b'copying config/mapper_params_online_async.yaml -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/config\n'}
+[4.571557] (aurora1) StdoutLine: {'line': b'copying config/rover_controller_4wd_v2.yaml -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/config\n'}
+[4.571978] (aurora1) StdoutLine: {'line': b'copying description/robot.urdf.xacro -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/description\n'}
+[4.573725] (aurora_drive) CommandEnded: {'returncode': 0}
+[4.574591] (aurora1) StdoutLine: {'line': b'copying description/camera.xacro -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/description\n'}
+[4.577464] (aurora1) StdoutLine: {'line': b'copying description/inertial_macros.xacro -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/description\n'}
+[4.578358] (aurora1) StdoutLine: {'line': b'copying description/depth_camera.xacro -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/description\n'}
+[4.578771] (aurora1) StdoutLine: {'line': b'copying description/ros2_control_4wd_v2.xacro -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/description\n'}
+[4.579493] (aurora1) StdoutLine: {'line': b'copying description/lidar.xacro -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/description\n'}
+[4.580033] (aurora1) StdoutLine: {'line': b'copying description/robot_core_4wd_v2.xacro -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/description\n'}
+[4.581430] (aurora1) StdoutLine: {'line': b'copying rviz/slam.rviz -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/rviz\n'}
+[4.581691] (aurora1) StdoutLine: {'line': b'copying launch/joystick_real.launch.py -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/launch\n'}
+[4.582357] (aurora1) StdoutLine: {'line': b'copying launch/slam_launch.py -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/launch\n'}
+[4.583180] (aurora1) StdoutLine: {'line': b'copying launch/joystick.launch.py -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/launch\n'}
+[4.583499] (aurora1) StdoutLine: {'line': b'copying launch/launch_sim.launch.py -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/launch\n'}
+[4.583738] (aurora1) StdoutLine: {'line': b'copying launch/rsp.launch.py -> /home/aurora/aurora_sim_v2/install/aurora1/share/aurora1/launch\n'}
+[4.584893] (aurora1) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.587363] (aurora1) StdoutLine: {'line': b'Copying ../../build/aurora1/aurora1.egg-info to /home/aurora/aurora_sim_v2/install/aurora1/lib/python3.10/site-packages/aurora1-0.0.0-py3.10.egg-info\n'}
+[4.591711] (aurora_drive) JobEnded: {'identifier': 'aurora_drive', 'rc': 0}
+[4.592625] (aurora1) StdoutLine: {'line': b'running install_scripts\n'}
+[4.624400] (-) TimerEvent: {}
+[4.633216] (aurora1) StdoutLine: {'line': b'Installing ackermann_4wd_controller script to /home/aurora/aurora_sim_v2/install/aurora1/lib/aurora1\n'}
+[4.633724] (aurora1) StdoutLine: {'line': b'Installing ackermann_4wd_controller_real script to /home/aurora/aurora_sim_v2/install/aurora1/lib/aurora1\n'}
+[4.634615] (aurora1) StdoutLine: {'line': b"writing list of installed files to '/home/aurora/aurora_sim_v2/build/aurora1/install.log'\n"}
+[4.707851] (aurora1) CommandEnded: {'returncode': 0}
+[4.710930] (gpsx) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.712198] (gpsx) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.726131] (-) TimerEvent: {}
+[4.737764] (aurora1) JobEnded: {'identifier': 'aurora1', 'rc': 0}
+[4.826425] (-) TimerEvent: {}
+[4.872113] (gpsx) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.876321] (gpsx) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.926670] (-) TimerEvent: {}
+[5.027712] (-) TimerEvent: {}
+[5.062469] (gpsx) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.090416] (gpsx) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.127815] (-) TimerEvent: {}
+[5.228577] (-) TimerEvent: {}
+[5.329290] (-) TimerEvent: {}
+[5.430279] (-) TimerEvent: {}
+[5.531284] (-) TimerEvent: {}
+[5.632192] (-) TimerEvent: {}
+[5.732876] (-) TimerEvent: {}
+[5.808238] (gpsx) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.833051] (-) TimerEvent: {}
+[5.933811] (-) TimerEvent: {}
+[6.034692] (-) TimerEvent: {}
+[6.135389] (-) TimerEvent: {}
+[6.236309] (-) TimerEvent: {}
+[6.337097] (-) TimerEvent: {}
+[6.438160] (-) TimerEvent: {}
+[6.515819] (gpsx) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.538368] (-) TimerEvent: {}
+[6.639261] (-) TimerEvent: {}
+[6.740145] (-) TimerEvent: {}
+[6.791617] (gpsx) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.840277] (-) TimerEvent: {}
+[6.842944] (gpsx) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.849046] (gpsx) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.940634] (-) TimerEvent: {}
+[7.041865] (-) TimerEvent: {}
+[7.143067] (-) TimerEvent: {}
+[7.244305] (-) TimerEvent: {}
+[7.345575] (-) TimerEvent: {}
+[7.354306] (gpsx) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.355282] (gpsx) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.355619] (gpsx) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.355914] (gpsx) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[7.405963] (gpsx) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.445754] (-) TimerEvent: {}
+[7.491318] (gpsx) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[7.492087] (gpsx) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[7.492409] (gpsx) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[7.492698] (gpsx) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.492971] (gpsx) StderrLine: {'line': b'  CMakeLists.txt:31 (rosidl_target_interfaces)\n'}
+[7.493306] (gpsx) StderrLine: {'line': b'\n'}
+[7.493571] (gpsx) StderrLine: {'line': b'\x1b[0m\n'}
+[7.497254] (gpsx) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.545893] (-) TimerEvent: {}
+[7.588268] (gpsx) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.592031] (gpsx) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.593930] (gpsx) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx/include>\n'}
+[7.594238] (gpsx) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.597158] (gpsx) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.597401] (gpsx) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.599125] (gpsx) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.601573] (gpsx) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.601803] (gpsx) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.602756] (gpsx) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.610367] (gpsx) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.646107] (-) TimerEvent: {}
+[7.695814] (gpsx) StdoutLine: {'line': b'-- Generating done\n'}
+[7.717718] (gpsx) StdoutLine: {'line': b'-- Build files have been written to: /home/aurora/aurora_sim_v2/build/gpsx\n'}
+[7.746332] (-) TimerEvent: {}
+[7.747585] (gpsx) CommandEnded: {'returncode': 0}
+[7.749066] (gpsx) JobProgress: {'identifier': 'gpsx', 'progress': 'build'}
+[7.750770] (gpsx) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aurora/aurora_sim_v2/build/gpsx', '--', '-j6', '-l6'], 'cwd': '/home/aurora/aurora_sim_v2/build/gpsx', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('OLDPWD', '/home/aurora/aurora_sim_v2/src/ros2GPSx'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2183'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aurora'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aurora-desktop:@/tmp/.ICE-unix/2156,unix/aurora-desktop:/tmp/.ICE-unix/2156'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbd28365_2634_43c7_a5ce_e884bf3dfc6e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/aurora_sim_v2/build/gpsx'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.837357] (gpsx) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.846488] (-) TimerEvent: {}
+[7.856122] (gpsx) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.875228] (gpsx) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_gpsx\n'}
+[7.946638] (-) TimerEvent: {}
+[8.047237] (-) TimerEvent: {}
+[8.147831] (-) TimerEvent: {}
+[8.248419] (-) TimerEvent: {}
+[8.329528] (gpsx) StdoutLine: {'line': b'running egg_info\n'}
+[8.330542] (gpsx) StdoutLine: {'line': b'creating gpsx.egg-info\n'}
+[8.330918] (gpsx) StdoutLine: {'line': b'writing gpsx.egg-info/PKG-INFO\n'}
+[8.331284] (gpsx) StdoutLine: {'line': b'writing dependency_links to gpsx.egg-info/dependency_links.txt\n'}
+[8.331631] (gpsx) StdoutLine: {'line': b'writing top-level names to gpsx.egg-info/top_level.txt\n'}
+[8.331991] (gpsx) StdoutLine: {'line': b"writing manifest file 'gpsx.egg-info/SOURCES.txt'\n"}
+[8.335729] (gpsx) StdoutLine: {'line': b"reading manifest file 'gpsx.egg-info/SOURCES.txt'\n"}
+[8.336625] (gpsx) StdoutLine: {'line': b"writing manifest file 'gpsx.egg-info/SOURCES.txt'\n"}
+[8.348535] (-) TimerEvent: {}
+[8.401964] (gpsx) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_gpsx_egg\n'}
+[8.448724] (-) TimerEvent: {}
+[8.525174] (gpsx) StdoutLine: {'line': b'[  4%] Built target gpsx__cpp\n'}
+[8.544604] (gpsx) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.545078] (gpsx) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.545360] (gpsx) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.548915] (-) TimerEvent: {}
+[8.559645] (gpsx) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/gpsx__rosidl_generator_c.dir/rosidl_generator_c/gpsx/msg/detail/gpsx__functions.c.o\x1b[0m\n'}
+[8.560210] (gpsx) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/gpsx__rosidl_generator_c.dir/rosidl_generator_c/gpsx/srv/detail/get_sat_list__functions.c.o\x1b[0m\n'}
+[8.649064] (-) TimerEvent: {}
+[8.719339] (gpsx) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libgpsx__rosidl_generator_c.so\x1b[0m\n'}
+[8.749260] (-) TimerEvent: {}
+[8.787352] (gpsx) StdoutLine: {'line': b'[ 19%] Built target gpsx__rosidl_generator_c\n'}
+[8.804481] (gpsx) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.805192] (gpsx) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.805502] (gpsx) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.849402] (-) TimerEvent: {}
+[8.949998] (-) TimerEvent: {}
+[9.050616] (-) TimerEvent: {}
+[9.058643] (gpsx) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpsx/msg/gpsx__type_support.cpp.o\x1b[0m\n'}
+[9.150775] (-) TimerEvent: {}
+[9.177210] (gpsx) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpsx/msg/detail/gpsx__type_support.cpp.o\x1b[0m\n'}
+[9.214283] (gpsx) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpsx/msg/detail/dds_fastrtps/gpsx__type_support.cpp.o\x1b[0m\n'}
+[9.250927] (-) TimerEvent: {}
+[9.351541] (-) TimerEvent: {}
+[9.441413] (gpsx) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpsx/msg/gpsx__type_support.cpp.o\x1b[0m\n'}
+[9.451765] (-) TimerEvent: {}
+[9.510263] (gpsx) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpsx/srv/get_sat_list__type_support.cpp.o\x1b[0m\n'}
+[9.521411] (gpsx) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpsx/msg/detail/gpsx__type_support.c.o\x1b[0m\n'}
+[9.521957] (gpsx) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpsx/msg/detail/gpsx__type_support_c.cpp.o\x1b[0m\n'}
+[9.551967] (-) TimerEvent: {}
+[9.586181] (gpsx) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libgpsx__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.587186] (gpsx) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpsx/srv/detail/get_sat_list__type_support.c.o\x1b[0m\n'}
+[9.652167] (-) TimerEvent: {}
+[9.684786] (gpsx) StdoutLine: {'line': b'[ 48%] Built target gpsx__rosidl_typesupport_c\n'}
+[9.703180] (gpsx) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libgpsx__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.703865] (gpsx) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpsx/srv/detail/get_sat_list__type_support_c.cpp.o\x1b[0m\n'}
+[9.736681] (gpsx) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpsx/srv/get_sat_list__type_support.cpp.o\x1b[0m\n'}
+[9.752398] (-) TimerEvent: {}
+[9.821037] (gpsx) StdoutLine: {'line': b'[ 56%] Built target gpsx__rosidl_typesupport_introspection_c\n'}
+[9.852652] (-) TimerEvent: {}
+[9.871036] (gpsx) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpsx/srv/detail/dds_fastrtps/get_sat_list__type_support.cpp.o\x1b[0m\n'}
+[9.952848] (-) TimerEvent: {}
+[10.053591] (-) TimerEvent: {}
+[10.154303] (-) TimerEvent: {}
+[10.255020] (-) TimerEvent: {}
+[10.318461] (gpsx) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gpsx__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpsx/srv/detail/get_sat_list__type_support.cpp.o\x1b[0m\n'}
+[10.355265] (-) TimerEvent: {}
+[10.456051] (-) TimerEvent: {}
+[10.499051] (gpsx) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libgpsx__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.556240] (-) TimerEvent: {}
+[10.621271] (gpsx) StdoutLine: {'line': b'[ 63%] Built target gpsx__rosidl_typesupport_cpp\n'}
+[10.656438] (-) TimerEvent: {}
+[10.760537] (-) TimerEvent: {}
+[10.862754] (-) TimerEvent: {}
+[10.875834] (gpsx) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libgpsx__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.962940] (-) TimerEvent: {}
+[11.051404] (gpsx) StdoutLine: {'line': b'[ 65%] Built target gpsx__rosidl_typesupport_fastrtps_c\n'}
+[11.063104] (-) TimerEvent: {}
+[11.088282] (gpsx) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libgpsx__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.163291] (-) TimerEvent: {}
+[11.225690] (gpsx) StdoutLine: {'line': b'[ 68%] Built target gpsx__rosidl_typesupport_fastrtps_cpp\n'}
+[11.263603] (-) TimerEvent: {}
+[11.275760] (gpsx) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libgpsx__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.363842] (-) TimerEvent: {}
+[11.438679] (gpsx) StdoutLine: {'line': b'[ 70%] Built target gpsx__rosidl_typesupport_introspection_cpp\n'}
+[11.463914] (-) TimerEvent: {}
+[11.488247] (gpsx) StdoutLine: {'line': b'[ 70%] Built target gpsx\n'}
+[11.526182] (gpsx) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gps_node.dir/src/gps_node.cpp.o\x1b[0m\n'}
+[11.526768] (gpsx) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.564055] (-) TimerEvent: {}
+[11.664638] (-) TimerEvent: {}
+[11.766650] (-) TimerEvent: {}
+[11.867610] (-) TimerEvent: {}
+[11.968291] (-) TimerEvent: {}
+[12.069130] (-) TimerEvent: {}
+[12.169855] (-) TimerEvent: {}
+[12.270574] (-) TimerEvent: {}
+[12.371405] (-) TimerEvent: {}
+[12.472364] (-) TimerEvent: {}
+[12.501732] (gpsx) StdoutLine: {'line': b'[ 75%] Built target gpsx__py\n'}
+[12.539114] (gpsx) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/gpsx__rosidl_generator_py.dir/rosidl_generator_py/gpsx/msg/_gpsx_s.c.o\x1b[0m\n'}
+[12.539620] (gpsx) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/gpsx__rosidl_generator_py.dir/rosidl_generator_py/gpsx/srv/_get_sat_list_s.c.o\x1b[0m\n'}
+[12.572532] (-) TimerEvent: {}
+[12.673220] (-) TimerEvent: {}
+[12.774141] (-) TimerEvent: {}
+[12.874839] (-) TimerEvent: {}
+[12.875396] (gpsx) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gpsx/libgpsx__rosidl_generator_py.so\x1b[0m\n'}
+[12.950942] (gpsx) StdoutLine: {'line': b'[ 82%] Built target gpsx__rosidl_generator_py\n'}
+[12.975040] (-) TimerEvent: {}
+[12.988354] (gpsx) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gpsx/_gpsx_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.988882] (gpsx) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gpsx/_gpsx_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.989072] (gpsx) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gpsx__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gpsx/_gpsx_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.075206] (-) TimerEvent: {}
+[13.175993] (gpsx) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gpsx/gpsx_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[13.176668] (-) TimerEvent: {}
+[13.176970] (gpsx) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gpsx/gpsx_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[13.177352] (gpsx) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gpsx/gpsx_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[13.238936] (gpsx) StdoutLine: {'line': b'[ 97%] Built target gpsx__rosidl_typesupport_introspection_c__pyext\n'}
+[13.239446] (gpsx) StdoutLine: {'line': b'[ 97%] Built target gpsx__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.239622] (gpsx) StdoutLine: {'line': b'[ 97%] Built target gpsx__rosidl_typesupport_c__pyext\n'}
+[13.276899] (-) TimerEvent: {}
+[13.377817] (-) TimerEvent: {}
+[13.478665] (-) TimerEvent: {}
+[13.579501] (-) TimerEvent: {}
+[13.680345] (-) TimerEvent: {}
+[13.781206] (-) TimerEvent: {}
+[13.882023] (-) TimerEvent: {}
+[13.982850] (-) TimerEvent: {}
+[14.083670] (-) TimerEvent: {}
+[14.184458] (-) TimerEvent: {}
+[14.285290] (-) TimerEvent: {}
+[14.386101] (-) TimerEvent: {}
+[14.486849] (-) TimerEvent: {}
+[14.587547] (-) TimerEvent: {}
+[14.688252] (-) TimerEvent: {}
+[14.789032] (-) TimerEvent: {}
+[14.889913] (-) TimerEvent: {}
+[14.990744] (-) TimerEvent: {}
+[15.091567] (-) TimerEvent: {}
+[15.192357] (-) TimerEvent: {}
+[15.293203] (-) TimerEvent: {}
+[15.394047] (-) TimerEvent: {}
+[15.494893] (-) TimerEvent: {}
+[15.595737] (-) TimerEvent: {}
+[15.696580] (-) TimerEvent: {}
+[15.797466] (-) TimerEvent: {}
+[15.898319] (-) TimerEvent: {}
+[15.999178] (-) TimerEvent: {}
+[16.100001] (-) TimerEvent: {}
+[16.200794] (-) TimerEvent: {}
+[16.301650] (-) TimerEvent: {}
+[16.402489] (-) TimerEvent: {}
+[16.503336] (-) TimerEvent: {}
+[16.604180] (-) TimerEvent: {}
+[16.705017] (-) TimerEvent: {}
+[16.805884] (-) TimerEvent: {}
+[16.906725] (-) TimerEvent: {}
+[17.007567] (-) TimerEvent: {}
+[17.108335] (-) TimerEvent: {}
+[17.209210] (-) TimerEvent: {}
+[17.310037] (-) TimerEvent: {}
+[17.410867] (-) TimerEvent: {}
+[17.511712] (-) TimerEvent: {}
+[17.612603] (-) TimerEvent: {}
+[17.713554] (-) TimerEvent: {}
+[17.814386] (-) TimerEvent: {}
+[17.915237] (-) TimerEvent: {}
+[18.016086] (-) TimerEvent: {}
+[18.116937] (-) TimerEvent: {}
+[18.217802] (-) TimerEvent: {}
+[18.318653] (-) TimerEvent: {}
+[18.419505] (-) TimerEvent: {}
+[18.520367] (-) TimerEvent: {}
+[18.621216] (-) TimerEvent: {}
+[18.721973] (-) TimerEvent: {}
+[18.822817] (-) TimerEvent: {}
+[18.923658] (-) TimerEvent: {}
+[19.024496] (-) TimerEvent: {}
+[19.125332] (-) TimerEvent: {}
+[19.226153] (-) TimerEvent: {}
+[19.326977] (-) TimerEvent: {}
+[19.427824] (-) TimerEvent: {}
+[19.528706] (-) TimerEvent: {}
+[19.629552] (-) TimerEvent: {}
+[19.730380] (-) TimerEvent: {}
+[19.831199] (-) TimerEvent: {}
+[19.932025] (-) TimerEvent: {}
+[20.032850] (-) TimerEvent: {}
+[20.133731] (-) TimerEvent: {}
+[20.234553] (-) TimerEvent: {}
+[20.335364] (-) TimerEvent: {}
+[20.436193] (-) TimerEvent: {}
+[20.537021] (-) TimerEvent: {}
+[20.637897] (-) TimerEvent: {}
+[20.738717] (-) TimerEvent: {}
+[20.839471] (-) TimerEvent: {}
+[20.940179] (-) TimerEvent: {}
+[21.041008] (-) TimerEvent: {}
+[21.141867] (-) TimerEvent: {}
+[21.242674] (-) TimerEvent: {}
+[21.343474] (-) TimerEvent: {}
+[21.444164] (-) TimerEvent: {}
+[21.545028] (-) TimerEvent: {}
+[21.646012] (-) TimerEvent: {}
+[21.746917] (-) TimerEvent: {}
+[21.847879] (-) TimerEvent: {}
+[21.948772] (-) TimerEvent: {}
+[22.049653] (-) TimerEvent: {}
+[22.100104] (gpsx) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gps_node\x1b[0m\n'}
+[22.149863] (-) TimerEvent: {}
+[22.250607] (-) TimerEvent: {}
+[22.351315] (-) TimerEvent: {}
+[22.452136] (-) TimerEvent: {}
+[22.552897] (-) TimerEvent: {}
+[22.653675] (-) TimerEvent: {}
+[22.754407] (-) TimerEvent: {}
+[22.785049] (gpsx) StdoutLine: {'line': b'[100%] Built target gps_node\n'}
+[22.813547] (gpsx) CommandEnded: {'returncode': 0}
+[22.816717] (gpsx) JobProgress: {'identifier': 'gpsx', 'progress': 'install'}
+[22.839543] (gpsx) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aurora/aurora_sim_v2/build/gpsx'], 'cwd': '/home/aurora/aurora_sim_v2/build/gpsx', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('OLDPWD', '/home/aurora/aurora_sim_v2/src/ros2GPSx'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2183'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aurora'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aurora-desktop:@/tmp/.ICE-unix/2156,unix/aurora-desktop:/tmp/.ICE-unix/2156'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbd28365_2634_43c7_a5ce_e884bf3dfc6e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/aurora_sim_v2/build/gpsx'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.854527] (-) TimerEvent: {}
+[22.862655] (gpsx) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.863305] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/ament_index/resource_index/rosidl_interfaces/gpsx\n'}
+[22.863759] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx\n'}
+[22.864049] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg\n'}
+[22.864291] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.864487] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/gpsx.h\n'}
+[22.864688] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail\n'}
+[22.864893] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__functions.c\n'}
+[22.865192] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__type_support.h\n'}
+[22.865928] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__struct.h\n'}
+[22.866163] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__functions.h\n'}
+[22.866362] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv\n'}
+[22.866550] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/get_sat_list.h\n'}
+[22.866730] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail\n'}
+[22.866905] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__struct.h\n'}
+[22.867064] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__type_support.h\n'}
+[22.867246] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__functions.h\n'}
+[22.867395] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__functions.c\n'}
+[22.867647] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/library_path.sh\n'}
+[22.867941] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/library_path.dsv\n'}
+[22.868354] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_generator_c.so\n'}
+[22.869009] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_generator_c.so" to ""\n'}
+[22.869350] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx\n'}
+[22.869659] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg\n'}
+[22.869878] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.870377] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail\n'}
+[22.870575] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__rosidl_typesupport_fastrtps_c.h\n'}
+[22.870764] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv\n'}
+[22.870942] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail\n'}
+[22.871084] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__rosidl_typesupport_fastrtps_c.h\n'}
+[22.871241] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_fastrtps_c.so\n'}
+[22.871868] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.872091] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx\n'}
+[22.872262] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg\n'}
+[22.872432] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/gpsx.hpp\n'}
+[22.872613] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[22.872756] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail\n'}
+[22.872923] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__builder.hpp\n'}
+[22.873083] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__traits.hpp\n'}
+[22.873253] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__struct.hpp\n'}
+[22.873421] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__type_support.hpp\n'}
+[22.873615] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv\n'}
+[22.873806] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/get_sat_list.hpp\n'}
+[22.873963] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail\n'}
+[22.874121] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__builder.hpp\n'}
+[22.874275] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__traits.hpp\n'}
+[22.874413] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__type_support.hpp\n'}
+[22.874580] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__struct.hpp\n'}
+[22.874753] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx\n'}
+[22.874945] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg\n'}
+[22.875112] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail\n'}
+[22.875269] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.875446] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/dds_fastrtps\n'}
+[22.875606] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.875778] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv\n'}
+[22.875914] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail\n'}
+[22.876095] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.876256] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/dds_fastrtps\n'}
+[22.876388] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.876985] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[22.877502] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx\n'}
+[22.877738] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg\n'}
+[22.877896] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.878058] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail\n'}
+[22.878220] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__rosidl_typesupport_introspection_c.h\n'}
+[22.878349] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__type_support.c\n'}
+[22.878539] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv\n'}
+[22.878663] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail\n'}
+[22.878820] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__rosidl_typesupport_introspection_c.h\n'}
+[22.878965] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__type_support.c\n'}
+[22.879121] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_introspection_c.so\n'}
+[22.879678] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.879888] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_c.so\n'}
+[22.880346] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_c.so" to ""\n'}
+[22.880677] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx\n'}
+[22.880879] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg\n'}
+[22.881021] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail\n'}
+[22.881175] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.881315] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/msg/detail/gpsx__type_support.cpp\n'}
+[22.882172] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv\n'}
+[22.882338] (gpsx) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail\n'}
+[22.882464] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.882661] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/include/gpsx/gpsx/srv/detail/get_sat_list__type_support.cpp\n'}
+[22.882795] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_introspection_cpp.so\n'}
+[22.882917] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[22.883036] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_cpp.so\n'}
+[22.883182] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_typesupport_cpp.so" to ""\n'}
+[22.883338] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/pythonpath.sh\n'}
+[22.884916] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/pythonpath.dsv\n'}
+[22.885843] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info\n'}
+[22.886231] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[22.887278] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[22.887660] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[22.888048] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[22.888398] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx\n'}
+[22.888847] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.889129] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.889403] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/_gpsx_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[22.889642] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.889876] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/libgpsx__rosidl_generator_py.so\n'}
+[22.890106] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg\n'}
+[22.890334] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/_gpsx.py\n'}
+[22.890573] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/_gpsx_s.c\n'}
+[22.890803] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/__init__.py\n'}
+[22.891081] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv\n'}
+[22.891344] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/_get_sat_list.py\n'}
+[22.891596] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/_get_sat_list_s.c\n'}
+[22.891865] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/__init__.py\n'}
+[22.892093] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/_gpsx_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[22.892320] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/__init__.py\n'}
+[22.892550] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/_gpsx_s.ep.rosidl_typesupport_c.c\n'}
+[22.954663] (-) TimerEvent: {}
+[22.959849] (gpsx) StdoutLine: {'line': b"Listing '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx'...\n"}
+[22.960327] (gpsx) StdoutLine: {'line': b"Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/__init__.py'...\n"}
+[22.960599] (gpsx) StdoutLine: {'line': b"Listing '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg'...\n"}
+[22.960836] (gpsx) StdoutLine: {'line': b"Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/__init__.py'...\n"}
+[22.961063] (gpsx) StdoutLine: {'line': b"Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/msg/_gpsx.py'...\n"}
+[22.961327] (gpsx) StdoutLine: {'line': b"Listing '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv'...\n"}
+[22.961549] (gpsx) StdoutLine: {'line': b"Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/__init__.py'...\n"}
+[22.961766] (gpsx) StdoutLine: {'line': b"Compiling '/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/srv/_get_sat_list.py'...\n"}
+[22.970739] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.971338] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[22.971694] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.972158] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[22.972658] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[22.973415] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/local/lib/python3.10/dist-packages/gpsx/gpsx_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[22.973706] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_generator_py.so\n'}
+[22.974025] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/libgpsx__rosidl_generator_py.so" to ""\n'}
+[22.974327] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/msg/Gpsx.idl\n'}
+[22.974622] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/srv/GetSatList.idl\n'}
+[22.974944] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/msg/Gpsx.msg\n'}
+[22.976614] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/srv/GetSatList.srv\n'}
+[22.976913] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/srv/GetSatList_Request.msg\n'}
+[22.977208] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/srv/GetSatList_Response.msg\n'}
+[22.977472] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/lib/gpsx/gps_node\n'}
+[22.980085] (gpsx) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/aurora_sim_v2/install/gpsx/lib/gpsx/gps_node" to ""\n'}
+[22.980526] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/ament_index/resource_index/package_run_dependencies/gpsx\n'}
+[22.980878] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/ament_index/resource_index/parent_prefix_path/gpsx\n'}
+[22.981229] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/ament_prefix_path.sh\n'}
+[22.981575] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/ament_prefix_path.dsv\n'}
+[22.981951] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/path.sh\n'}
+[22.984063] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/environment/path.dsv\n'}
+[22.984394] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/local_setup.bash\n'}
+[22.984662] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/local_setup.sh\n'}
+[22.984910] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/local_setup.zsh\n'}
+[22.985235] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/local_setup.dsv\n'}
+[22.985494] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/package.dsv\n'}
+[22.986187] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/ament_index/resource_index/packages/gpsx\n'}
+[22.986550] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_cExport.cmake\n'}
+[22.986908] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.987212] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.987571] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.987881] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_cppExport.cmake\n'}
+[22.988473] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.988882] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.989244] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.989607] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.989945] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_cExport.cmake\n'}
+[22.990561] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.991173] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.992196] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.992502] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_cppExport.cmake\n'}
+[22.992754] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsx__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.992995] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_pyExport.cmake\n'}
+[22.993319] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/export_gpsx__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.993576] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/rosidl_cmake-extras.cmake\n'}
+[22.993811] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.994373] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.995199] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.998130] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.998630] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.999048] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.999360] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsxConfig.cmake\n'}
+[22.999898] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/cmake/gpsxConfig-version.cmake\n'}
+[23.000431] (gpsx) StdoutLine: {'line': b'-- Installing: /home/aurora/aurora_sim_v2/install/gpsx/share/gpsx/package.xml\n'}
+[23.000795] (gpsx) CommandEnded: {'returncode': 0}
+[23.055454] (-) TimerEvent: {}
+[23.061354] (gpsx) JobEnded: {'identifier': 'gpsx', 'rc': 0}
+[23.064823] (-) EventReactorShutdown: {}

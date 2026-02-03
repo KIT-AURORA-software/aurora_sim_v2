@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6ca9a2290a5c24741605.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "gpsx__py",
+					"jsonFile" : "directory-gpsx__py-bc80e3b5e7f0ca82ccc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aurora/aurora_sim_v2/build/gpsx/gpsx__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gpsx",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gpsx_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gpsx_egg-688ece60404c794c45ce.json",
+					"name" : "ament_cmake_python_build_gpsx_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gpsx::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gpsx-dc9af2cdbd918771746d.json",
+					"name" : "ament_cmake_python_copy_gpsx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_node-5d036fec21ebbe51b2a6.json",
+					"name" : "gps_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx-6135712a3e8e23114c39.json",
+					"name" : "gpsx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__cpp-c592e81631c837487309.json",
+					"name" : "gpsx__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gpsx__py::@4c0019855008a4c0d1ed",
+					"jsonFile" : "target-gpsx__py-18263f07cc9e350bf0d0.json",
+					"name" : "gpsx__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_generator_c-af10822767e1dd1a3d15.json",
+					"name" : "gpsx__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_generator_py-24ab538df14d9a29747a.json",
+					"name" : "gpsx__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_typesupport_c-44ddc7b283201ab86c0c.json",
+					"name" : "gpsx__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_typesupport_c__pyext-a6e18bd7ca17bbc85add.json",
+					"name" : "gpsx__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_typesupport_cpp-9f87594423445ed4f53c.json",
+					"name" : "gpsx__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_typesupport_fastrtps_c-eda79810eeafe861d6b1.json",
+					"name" : "gpsx__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_typesupport_fastrtps_c__pyext-2ed849fcd66dc8eb7d6c.json",
+					"name" : "gpsx__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_typesupport_fastrtps_cpp-96331405b79faba3b000.json",
+					"name" : "gpsx__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_typesupport_introspection_c-5d3bc452e7eb27609d2e.json",
+					"name" : "gpsx__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_typesupport_introspection_c__pyext-1ba03bc44b262e12c5c9.json",
+					"name" : "gpsx__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx__rosidl_typesupport_introspection_cpp-9ec231d4ce3b3e3d5e0b.json",
+					"name" : "gpsx__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsx_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsx_uninstall-3a2deec970c551174f36.json",
+					"name" : "gpsx_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f4b09473385555029672.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aurora/aurora_sim_v2/build/gpsx",
+		"source" : "/home/aurora/aurora_sim_v2/src/ros2GPSx/gpsx"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

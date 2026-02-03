@@ -1,1 +1,16 @@
-/home/aurora/aurora_sim_v2/build/aurora_drive/config/twist_mux.yaml
+twist_mux: 
+  ros__parameters:
+    topics:
+      navigation:
+        topic    : cmd_vel
+        timeout  : 0.5
+        priority : 10
+      joystick:
+        topic   :  cmd_vel_joy
+        timeout : 0.5
+        priority : 100
+    
+    # これを追加！
+    cmd_vel_out:  cmd_vel  # または /cmd_vel
+    
+    use_sim_time: true

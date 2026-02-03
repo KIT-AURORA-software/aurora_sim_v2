@@ -1,0 +1,5 @@
+  File "/home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps/aurora_gps.py", line 27
+    self.timer = self.create_timer(0.1, self.gps_callback)
+    ^^^^
+SyntaxError: expected 'except' or 'finally' block
+

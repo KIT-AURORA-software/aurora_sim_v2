@@ -1,1 +1,0 @@
-/home/aurora/aurora_sim_v2/src/aurora1/setup.py

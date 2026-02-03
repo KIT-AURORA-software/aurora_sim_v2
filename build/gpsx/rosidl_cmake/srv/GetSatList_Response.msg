@@ -1,0 +1,6 @@
+
+int16[] gnsstype
+int16[] id
+int16[] elevation
+int16[] azimuth
+int16[] snr

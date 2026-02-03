@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gpsx/srv/GetSatList.srv
+// generated code does not contain a copyright notice
+
+
+module gpsx {
+  module srv {
+    struct GetSatList_Request {
+      int8 type;
+    };
+    struct GetSatList_Response {
+      sequence<int16> gnsstype;
+
+      sequence<int16> id;
+
+      sequence<int16> elevation;
+
+      sequence<int16> azimuth;
+
+      sequence<int16> snr;
+    };
+  };
+};

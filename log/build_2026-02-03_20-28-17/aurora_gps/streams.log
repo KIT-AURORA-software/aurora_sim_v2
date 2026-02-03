@@ -1,0 +1,36 @@
+[3.082s] Invoking command in '/home/aurora/aurora_sim_v2/src/aurora_gps': PYTHONPATH=/home/aurora/aurora_sim_v2/build/aurora_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_gps build --build-base /home/aurora/aurora_sim_v2/build/aurora_gps/build install --record /home/aurora/aurora_sim_v2/build/aurora_gps/install.log --single-version-externally-managed install_data
+[3.559s] running egg_info
+[3.560s] creating ../../build/aurora_gps/aurora_gps.egg-info
+[3.561s] writing ../../build/aurora_gps/aurora_gps.egg-info/PKG-INFO
+[3.561s] writing dependency_links to ../../build/aurora_gps/aurora_gps.egg-info/dependency_links.txt
+[3.562s] writing entry points to ../../build/aurora_gps/aurora_gps.egg-info/entry_points.txt
+[3.562s] writing requirements to ../../build/aurora_gps/aurora_gps.egg-info/requires.txt
+[3.562s] writing top-level names to ../../build/aurora_gps/aurora_gps.egg-info/top_level.txt
+[3.562s] writing manifest file '../../build/aurora_gps/aurora_gps.egg-info/SOURCES.txt'
+[3.567s] reading manifest file '../../build/aurora_gps/aurora_gps.egg-info/SOURCES.txt'
+[3.568s] writing manifest file '../../build/aurora_gps/aurora_gps.egg-info/SOURCES.txt'
+[3.568s] running build
+[3.568s] running build_py
+[3.569s] creating /home/aurora/aurora_sim_v2/build/aurora_gps/build
+[3.569s] creating /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib
+[3.569s] creating /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps
+[3.569s] copying aurora_gps/aurora_gps.py -> /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps
+[3.569s] copying aurora_gps/__init__.py -> /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps
+[3.569s] running install
+[3.570s] running install_lib
+[3.572s] creating /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps
+[3.572s] copying /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps/aurora_gps.py -> /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps
+[3.572s] copying /home/aurora/aurora_sim_v2/build/aurora_gps/build/lib/aurora_gps/__init__.py -> /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps
+[3.573s] byte-compiling /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps/aurora_gps.py to aurora_gps.cpython-310.pyc
+[3.574s] byte-compiling /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps/__init__.py to __init__.cpython-310.pyc
+[3.574s] running install_data
+[3.575s] creating /home/aurora/aurora_sim_v2/install/aurora_gps/share/ament_index
+[3.575s] creating /home/aurora/aurora_sim_v2/install/aurora_gps/share/ament_index/resource_index
+[3.575s] creating /home/aurora/aurora_sim_v2/install/aurora_gps/share/ament_index/resource_index/packages
+[3.575s] copying resource/aurora_gps -> /home/aurora/aurora_sim_v2/install/aurora_gps/share/ament_index/resource_index/packages
+[3.575s] copying package.xml -> /home/aurora/aurora_sim_v2/install/aurora_gps/share/aurora_gps
+[3.576s] running install_egg_info
+[3.583s] Copying ../../build/aurora_gps/aurora_gps.egg-info to /home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages/aurora_gps-0.0.0-py3.10.egg-info
+[3.585s] running install_scripts
+[3.626s] writing list of installed files to '/home/aurora/aurora_sim_v2/build/aurora_gps/install.log'
+[3.704s] Invoked command in '/home/aurora/aurora_sim_v2/src/aurora_gps' returned '0': PYTHONPATH=/home/aurora/aurora_sim_v2/build/aurora_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_gps build --build-base /home/aurora/aurora_sim_v2/build/aurora_gps/build install --record /home/aurora/aurora_sim_v2/build/aurora_gps/install.log --single-version-externally-managed install_data

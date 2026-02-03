@@ -1,0 +1,71 @@
+[3.081s] Invoking command in '/home/aurora/aurora_sim_v2/build/aurora_drive': PYTHONPATH=/home/aurora/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/aurora/aurora_sim_v2/build/aurora_drive/build
+[3.566s] running develop
+[3.855s] Removing /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora-drive.egg-link (link to .)
+[3.929s] Invoked command in '/home/aurora/aurora_sim_v2/build/aurora_drive' returned '0': PYTHONPATH=/home/aurora/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/aurora/aurora_sim_v2/build/aurora_drive/build
+[3.934s] Invoking command in '/home/aurora/aurora_sim_v2/src/aurora_drive': PYTHONPATH=/home/aurora/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_drive build --build-base /home/aurora/aurora_sim_v2/build/aurora_drive/build install --record /home/aurora/aurora_sim_v2/build/aurora_drive/install.log --single-version-externally-managed install_data --force
+[4.387s] running egg_info
+[4.388s] writing ../../build/aurora_drive/aurora_drive.egg-info/PKG-INFO
+[4.389s] writing dependency_links to ../../build/aurora_drive/aurora_drive.egg-info/dependency_links.txt
+[4.389s] writing entry points to ../../build/aurora_drive/aurora_drive.egg-info/entry_points.txt
+[4.389s] writing requirements to ../../build/aurora_drive/aurora_drive.egg-info/requires.txt
+[4.390s] writing top-level names to ../../build/aurora_drive/aurora_drive.egg-info/top_level.txt
+[4.395s] reading manifest file '../../build/aurora_drive/aurora_drive.egg-info/SOURCES.txt'
+[4.397s] writing manifest file '../../build/aurora_drive/aurora_drive.egg-info/SOURCES.txt'
+[4.398s] running build
+[4.398s] running build_py
+[4.399s] running install
+[4.400s] running install_lib
+[4.401s] creating /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive
+[4.401s] copying /home/aurora/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive/ackermann_sim_controller.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive
+[4.402s] copying /home/aurora/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive/odometry_4ws.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive
+[4.403s] copying /home/aurora/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive/ackermann_4wd_controller.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive
+[4.403s] copying /home/aurora/aurora_sim_v2/build/aurora_drive/build/lib/aurora_drive/__init__.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive
+[4.405s] byte-compiling /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/ackermann_sim_controller.py to ackermann_sim_controller.cpython-310.pyc
+[4.406s] byte-compiling /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/odometry_4ws.py to odometry_4ws.cpython-310.pyc
+[4.408s] byte-compiling /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/ackermann_4wd_controller.py to ackermann_4wd_controller.cpython-310.pyc
+[4.409s] byte-compiling /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__init__.py to __init__.cpython-310.pyc
+[4.410s] running install_data
+[4.410s] copying resource/aurora_drive -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/ament_index/resource_index/packages
+[4.411s] copying package.xml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive
+[4.411s] copying launch/joystick_real.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.411s] copying launch/joystick.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.412s] copying launch/joystick_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.414s] copying launch/all.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.414s] copying launch/launch_sim.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.415s] copying launch/rsp.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.416s] copying launch/rsp_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.417s] copying launch/launch_sim_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.417s] copying launch/joystick_real.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.417s] copying launch/slam_launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.417s] copying launch/joystick.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.418s] copying launch/joystick_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.418s] copying launch/all.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.418s] copying launch/launch_sim.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.418s] copying launch/rsp.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.418s] copying launch/rsp_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.419s] copying launch/launch_sim_v2.launch.py -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/launch
+[4.419s] copying config/twist_mux.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config
+[4.420s] copying config/joystick.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config
+[4.422s] copying config/controller_4ws.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config
+[4.423s] copying config/slam_toolbox.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config
+[4.424s] copying config/mapper_params_online_async.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config
+[4.425s] copying config/nav2_param.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config
+[4.425s] copying config/rover_controller_4wd_v2.yaml -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config
+[4.426s] copying description/robot.urdf.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description
+[4.427s] copying description/camera.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description
+[4.427s] copying description/inertial_macros.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description
+[4.428s] copying description/depth_camera.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description
+[4.428s] copying description/ros2_control_4wd_v2.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description
+[4.429s] copying description/lidar.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description
+[4.430s] copying description/robot_core_4wd_v2.xacro -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description
+[4.430s] copying world/obstacle.world -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/world
+[4.432s] copying world/obstacle_v2.world -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/world
+[4.433s] copying world/house.world -> /home/aurora/aurora_sim_v2/install/aurora_drive/share/aurora_drive/world
+[4.433s] running install_egg_info
+[4.441s] Copying ../../build/aurora_drive/aurora_drive.egg-info to /home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive-0.0.0-py3.10.egg-info
+[4.443s] running install_scripts
+[4.479s] Installing ackermann_4wd_controller script to /home/aurora/aurora_sim_v2/install/aurora_drive/lib/aurora_drive
+[4.480s] Installing ackermann_sim_controller script to /home/aurora/aurora_sim_v2/install/aurora_drive/lib/aurora_drive
+[4.480s] Installing odometry_4ws script to /home/aurora/aurora_sim_v2/install/aurora_drive/lib/aurora_drive
+[4.481s] writing list of installed files to '/home/aurora/aurora_sim_v2/build/aurora_drive/install.log'
+[4.549s] Invoked command in '/home/aurora/aurora_sim_v2/src/aurora_drive' returned '0': PYTHONPATH=/home/aurora/aurora_sim_v2/build/aurora_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_drive build --build-base /home/aurora/aurora_sim_v2/build/aurora_drive/build install --record /home/aurora/aurora_sim_v2/build/aurora_drive/install.log --single-version-externally-managed install_data --force
