@@ -16,9 +16,14 @@ class ArucoMapBuilder(Node):
     def __init__(self):
         super().__init__('aruco_map_builder')
         
+        # パラメータ
+        self.declare_parameter('total_markers', 3)  # デフォルト3個
+        total_markers = self.get_parameter('total_markers').value
+
         # 検出済みマーカー {id: {'x': x, 'y': y, 'z': z, 'count': n}}
         self.detected_markers = {}
-        self.marker_ids = list(range(9))  # 0~8
+        self.marker_ids = list(range(total_markers))  # 0~(total_markers-1)
+        self.total_markers = total_markers
         
         # TF
         self.tf_buffer = tf2_ros.Buffer()
@@ -34,7 +39,7 @@ class ArucoMapBuilder(Node):
         # Timer: 定期的にマーカー位置をチェック (500ms)
         self.timer = self.create_timer(0.5, self.check_markers)
         
-        self.get_logger().info("Aruco Map Builder起動 - マーカー0~8を探索中...")
+        self.get_logger().info(f"Aruco Map Builder起動 - マーカー0~{total_markers-1}を探索中...")
         
     def check_markers(self):
         """全マーカーのTFをチェック"""
@@ -66,7 +71,7 @@ class ArucoMapBuilder(Node):
                         f"🎯 新マーカー検出! ID={marker_id} at ({pos.x:.2f}, {pos.y:.2f})"
                     )
                     self.get_logger().info(
-                        f"進捗: {len(self.detected_markers)}/9 個発見"
+                        f"進捗: {len(self.detected_markers)}/{self.total_markers} 個発見"
                     )
                     self.save_map()
                 else:
@@ -102,8 +107,8 @@ class ArucoMapBuilder(Node):
             self.map_pub.publish(marker_array)
         
         # 全マーカー発見チェック
-        if len(self.detected_markers) == 9:
-            self.get_logger().info("✅ 全マーカー（9個）発見完了！", throttle_duration_sec=5.0)
+        if len(self.detected_markers) == self.total_markers:
+            self.get_logger().info(f"✅ 全マーカー（{self.total_markers}個）発見完了！", throttle_duration_sec=5.0)
     
     def create_rviz_marker(self, marker_id, pos_data):
         """RViz表示用マーカー作成"""
@@ -166,7 +171,7 @@ class ArucoMapBuilder(Node):
         """マーカー地図をYAMLファイルに保存"""
         filepath = os.path.expanduser('~/aruco_map.yaml')
         data = {
-            'total_markers': 9,
+            'total_markers': self.total_markers,
             'detected_count': len(self.detected_markers),
             'markers': self.detected_markers
         }

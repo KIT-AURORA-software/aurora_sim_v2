@@ -1,0 +1,5 @@
+[console_scripts]
+checkpoin_geometry = aurora_autonav.checkpoint_geometry:main
+checkpoint_navigation_node = aurora_autonav.checkpoint_navigation_node:main
+checkpoint_navigation_node_v2 = aurora_autonav.checkpoint_navigation_node_v2:main
+

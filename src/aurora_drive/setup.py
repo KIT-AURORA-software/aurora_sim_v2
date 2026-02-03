@@ -33,6 +33,7 @@ setup(
         'ackermann_sim_controller = aurora_drive.ackermann_sim_controller:main',
         'aruco_marker_mapper = aurora_drive.aruco_marker_mapper:main',
         'aruco_map_builder = aurora_drive.aruco_map_builder:main',
+        'aruco_explorer = aurora_drive.aruco_explorer:main',
     ],
 },
 

@@ -289,6 +289,27 @@
   <gazebo reference="right_back_wheel_link">
     <material>Gazebo/Black</material>
   </gazebo>
+  <gazebo reference="right_back_wheel_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <!-- ↓↓↓ ここから追加 ↓↓↓ -->
+  
+  <!-- Ground Truth Odometry Plugin -->
+  <gazebo>
+    <plugin name="ground_truth_odometry" filename="libgazebo_ros_p3d.so">
+      <ros>
+        <namespace>/</namespace>
+        <remapping>odom:=ground_truth/odom</remapping>
+      </ros>
+      <update_rate>50.0</update_rate>
+      <body_name>base_link</body_name>
+      <frame_name>world</frame_name>
+      <gaussian_noise>0.0</gaussian_noise>
+    </plugin>
+  </gazebo>
+  
+  <!-- ↑↑↑ ここまで追加 ↑↑↑ -->
 
 
 

@@ -1,0 +1,47 @@
+[0.552s] Invoking command in '/home/fuga1129/aurora_sim_v2/build/aurora_autonav': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build
+[0.781s] running develop
+[0.901s] Removing /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora-autonav.egg-link (link to .)
+[0.930s] Invoked command in '/home/fuga1129/aurora_sim_v2/build/aurora_autonav' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build
+[0.931s] Invoking command in '/home/fuga1129/aurora_sim_v2/src/aurora_autonav': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_autonav build --build-base /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build install --record /home/fuga1129/aurora_sim_v2/build/aurora_autonav/install.log --single-version-externally-managed install_data --force
+[1.115s] running egg_info
+[1.116s] writing ../../build/aurora_autonav/aurora_autonav.egg-info/PKG-INFO
+[1.116s] writing dependency_links to ../../build/aurora_autonav/aurora_autonav.egg-info/dependency_links.txt
+[1.116s] writing entry points to ../../build/aurora_autonav/aurora_autonav.egg-info/entry_points.txt
+[1.116s] writing requirements to ../../build/aurora_autonav/aurora_autonav.egg-info/requires.txt
+[1.116s] writing top-level names to ../../build/aurora_autonav/aurora_autonav.egg-info/top_level.txt
+[1.118s] reading manifest file '../../build/aurora_autonav/aurora_autonav.egg-info/SOURCES.txt'
+[1.119s] writing manifest file '../../build/aurora_autonav/aurora_autonav.egg-info/SOURCES.txt'
+[1.119s] running build
+[1.119s] running build_py
+[1.119s] creating /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build
+[1.119s] creating /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib
+[1.119s] creating /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav
+[1.119s] copying aurora_autonav/__init__.py -> /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav
+[1.119s] copying aurora_autonav/checkpoint_manager.py -> /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav
+[1.119s] copying aurora_autonav/checkpoint_navigation_node_v2.py -> /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav
+[1.120s] copying aurora_autonav/checkpoint_navigation_node.py -> /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav
+[1.120s] copying aurora_autonav/checkpoint_geometry.py -> /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav
+[1.120s] running install
+[1.120s] running install_lib
+[1.120s] creating /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav
+[1.120s] copying /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav/__init__.py -> /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav
+[1.121s] copying /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav/checkpoint_manager.py -> /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav
+[1.121s] copying /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav/checkpoint_navigation_node_v2.py -> /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav
+[1.121s] copying /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav/checkpoint_navigation_node.py -> /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav
+[1.121s] copying /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build/lib/aurora_autonav/checkpoint_geometry.py -> /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav
+[1.121s] byte-compiling /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav/__init__.py to __init__.cpython-310.pyc
+[1.121s] byte-compiling /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav/checkpoint_manager.py to checkpoint_manager.cpython-310.pyc
+[1.122s] byte-compiling /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav/checkpoint_navigation_node_v2.py to checkpoint_navigation_node_v2.cpython-310.pyc
+[1.124s] byte-compiling /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav/checkpoint_navigation_node.py to checkpoint_navigation_node.cpython-310.pyc
+[1.125s] byte-compiling /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav/checkpoint_geometry.py to checkpoint_geometry.cpython-310.pyc
+[1.125s] running install_data
+[1.125s] copying resource/aurora_autonav -> /home/fuga1129/aurora_sim_v2/install/aurora_autonav/share/ament_index/resource_index/packages
+[1.125s] copying package.xml -> /home/fuga1129/aurora_sim_v2/install/aurora_autonav/share/aurora_autonav
+[1.125s] running install_egg_info
+[1.127s] Copying ../../build/aurora_autonav/aurora_autonav.egg-info to /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora_autonav-0.0.0-py3.10.egg-info
+[1.127s] running install_scripts
+[1.143s] Installing checkpoin_geometry script to /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/aurora_autonav
+[1.143s] Installing checkpoint_navigation_node script to /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/aurora_autonav
+[1.143s] Installing checkpoint_navigation_node_v2 script to /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/aurora_autonav
+[1.143s] writing list of installed files to '/home/fuga1129/aurora_sim_v2/build/aurora_autonav/install.log'
+[1.168s] Invoked command in '/home/fuga1129/aurora_sim_v2/src/aurora_autonav' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aurora_autonav build --build-base /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build install --record /home/fuga1129/aurora_sim_v2/build/aurora_autonav/install.log --single-version-externally-managed install_data --force

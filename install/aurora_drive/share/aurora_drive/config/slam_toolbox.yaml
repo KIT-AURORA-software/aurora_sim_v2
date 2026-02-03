@@ -3,7 +3,7 @@ slam_toolbox:
     # フレーム設定
     odom_frame: odom
     map_frame: map
-    base_frame: base_foot_link
+    base_frame: base_link
     scan_topic:  /scan
 
     # モード

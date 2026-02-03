@@ -1,0 +1,24 @@
+[0.476s] Invoking command in '/home/fuga1129/aurora_sim_v2/build/aurora_autonav': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build --no-deps symlink_data
+[0.669s] running develop
+[0.784s] running egg_info
+[0.784s] creating aurora_autonav.egg-info
+[0.784s] writing aurora_autonav.egg-info/PKG-INFO
+[0.784s] writing dependency_links to aurora_autonav.egg-info/dependency_links.txt
+[0.784s] writing entry points to aurora_autonav.egg-info/entry_points.txt
+[0.784s] writing requirements to aurora_autonav.egg-info/requires.txt
+[0.784s] writing top-level names to aurora_autonav.egg-info/top_level.txt
+[0.784s] writing manifest file 'aurora_autonav.egg-info/SOURCES.txt'
+[0.785s] reading manifest file 'aurora_autonav.egg-info/SOURCES.txt'
+[0.786s] writing manifest file 'aurora_autonav.egg-info/SOURCES.txt'
+[0.787s] running build_ext
+[0.787s] Creating /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages/aurora-autonav.egg-link (link to .)
+[0.788s] Installing checkpoint_navigation_node script to /home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/aurora_autonav
+[0.788s] 
+[0.788s] Installed /home/fuga1129/aurora_sim_v2/build/aurora_autonav
+[0.788s] running symlink_data
+[0.788s] creating /home/fuga1129/aurora_sim_v2/install/aurora_autonav/share/ament_index
+[0.788s] creating /home/fuga1129/aurora_sim_v2/install/aurora_autonav/share/ament_index/resource_index
+[0.789s] creating /home/fuga1129/aurora_sim_v2/install/aurora_autonav/share/ament_index/resource_index/packages
+[0.789s] symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora_autonav/resource/aurora_autonav -> /home/fuga1129/aurora_sim_v2/install/aurora_autonav/share/ament_index/resource_index/packages
+[0.789s] symbolically linking /home/fuga1129/aurora_sim_v2/build/aurora_autonav/package.xml -> /home/fuga1129/aurora_sim_v2/install/aurora_autonav/share/aurora_autonav
+[0.818s] Invoked command in '/home/fuga1129/aurora_sim_v2/build/aurora_autonav' returned '0': PYTHONPATH=/home/fuga1129/aurora_sim_v2/build/aurora_autonav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fuga1129/aurora_sim_v2/install/aurora_autonav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fuga1129/aurora_sim_v2/build/aurora_autonav/build --no-deps symlink_data

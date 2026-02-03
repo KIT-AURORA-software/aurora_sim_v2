@@ -12,6 +12,7 @@ setup.py
 aurora_drive/__init__.py
 aurora_drive/ackermann_4wd_controller.py
 aurora_drive/ackermann_sim_controller.py
+aurora_drive/aruco_explorer.py
 aurora_drive/aruco_map_builder.py
 aurora_drive/aruco_marker_mapper.py
 aurora_drive/odometry_4ws.py
@@ -19,6 +20,7 @@ config/controller_4ws.yaml
 config/joystick.yaml
 config/mapper_params_online_async.yaml
 config/nav2_param.yaml
+config/nav2_params_aurora.yaml
 config/rover_controller_4wd_v2.yaml
 config/slam_toolbox.yaml
 config/twist_mux.yaml

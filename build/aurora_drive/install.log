@@ -1,12 +1,14 @@
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__init__.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/aruco_map_builder.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/odometry_4ws.py
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/aruco_explorer.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/aruco_marker_mapper.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/ackermann_sim_controller.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/ackermann_4wd_controller.py
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__pycache__/__init__.cpython-310.pyc
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__pycache__/aruco_map_builder.cpython-310.pyc
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__pycache__/odometry_4ws.cpython-310.pyc
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__pycache__/aruco_explorer.cpython-310.pyc
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__pycache__/aruco_marker_mapper.cpython-310.pyc
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__pycache__/ackermann_sim_controller.cpython-310.pyc
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive/__pycache__/ackermann_4wd_controller.cpython-310.pyc
@@ -29,6 +31,7 @@
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/nav2_param.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/slam_toolbox.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/mapper_params_online_async.yaml
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/config/nav2_params_aurora.yaml
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description/robot_core_4wd_v2.xacro
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description/depth_camera.xacro
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/share/aurora_drive/description/inertial_macros.xacro
@@ -49,6 +52,7 @@
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/python3.10/site-packages/aurora_drive-0.0.0-py3.10.egg-info/entry_points.txt
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/aurora_drive/ackermann_4wd_controller
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/aurora_drive/ackermann_sim_controller
+/home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/aurora_drive/aruco_explorer
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/aurora_drive/aruco_map_builder
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/aurora_drive/aruco_marker_mapper
 /home/fuga1129/aurora_sim_v2/install/aurora_drive/lib/aurora_drive/odometry_4ws
