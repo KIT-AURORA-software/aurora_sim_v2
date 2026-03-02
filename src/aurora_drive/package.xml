@@ -3,17 +3,31 @@
 <package format="3">
   <name>aurora_drive</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Aurora drive simulation/control package</description>
   <maintainer email="sakihama1129@icloud.com">fuga1129</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
-  <!-- ↓↓↓ ここから追加 ↓↓↓ -->
+  <!-- Python node runtime -->
   <depend>rclpy</depend>
   <depend>tf2_ros</depend>
-  <depend>visualization_msgs</depend>
   <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>visualization_msgs</depend>
+
+  <!-- Launch / sim -->
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>gazebo_ros</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+
+  <!-- ros2_control (needed if you use spawners/controllers in sim) -->
+  <depend>controller_manager</depend>
+  <depend>ros2_control</depend>
+  <depend>ros2_controllers</depend>
+
+  <!-- nav2/sim stack: only keep these if you actually use them (all.launch.py etc.) -->
   <depend>nav2_msgs</depend>
-  <!-- ↑↑↑ ここまで追加 ↑↑↑ -->
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
